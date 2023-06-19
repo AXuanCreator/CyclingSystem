@@ -1,0 +1,5 @@
+D:\SoftWare_Work\JetBrains\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/SoftWare_Work/JetBrains/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S D:\Files_Work\Code\JetBrains\CLion\Project\CyclingSystem -B D:\Files_Work\Code\JetBrains\CLion\Project\CyclingSystem\cmake-build-debug
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug

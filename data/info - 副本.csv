@@ -1,0 +1,331 @@
+Station ID,Station Name,Address,Total Docks,Docks in Service,Status,Longitude,Latitude
+87,900 W Harrison St,900 W Harrison St,19,19,in service,-87.649807,41.874754
+15,Aberdeen St & Jackson Blvd,1103 W.Jackson Blvd,23,23,in service,-87.65478743,41.87772613
+66,Aberdeen St & Monroe St,Aberdeen St & Monroe St,19,16,in service,-87.655519,41.880419
+316,Aberdeen St & Randolph St,Aberdeen St & Randolph St,15,15,in service,-87.654264,41.884114
+225,Ada St & Washington Blvd,Ada St & Washington Blvd,15,14,in service,-87.661206,41.88283
+223,Adler Planetarium,Off Street,38,38,in service,-87.607267,41.866095
+275,Albany Ave & 26th St,Albany Ave & 26th St,11,11,in service,-87.70201301,41.84447501
+283,Albany Ave & Bloomingdale Ave,Albany Ave & Bloomingdale Ave,15,15,in service,-87.70512646,41.91402671
+240,Artesian Ave & Hubbard St,Artesian Ave & Hubbard St,35,35,in service,-87.68821937,41.88949182
+193,Ashland Ave & 13th St,Ashland Ave & 13th St,15,15,in service,-87.666507,41.865234
+160,Ashland Ave & 21st St,Ashland Ave & 21st St,14,14,in service,-87.665897,41.85381
+313,Ashland Ave & 50th St,Ashland Ave & 50th St,11,11,in service,-87.664699,41.803023
+234,Ashland Ave & Archer Ave,Ashland Ave & Archer Ave,15,15,in service,-87.66560986,41.83920868
+24,Ashland Ave & Augusta Blvd,1611 W. Augusta Blvd,15,14,in service,-87.6677,41.899643
+217,Ashland Ave & Blackhawk St,Ashland Ave & Blackhawk St,15,15,in service,-87.667252,41.907066
+227,Ashland Ave & Chicago Ave,Ashland Ave & Chicago Ave,15,13,in service,-87.667747,41.895966
+162,Ashland Ave & Division St,Ashland Ave & Division St,27,27,in service,-87.667747,41.90345
+195,Ashland Ave & Grand Ave,Off Street,15,15,in service,-87.666611,41.891072
+245,Ashland Ave & Harrison St,Ashland Ave & Harrison St,23,22,in service,-87.667284,41.874293
+94,Ashland Ave & Lake St (Temp),Ashland Ave & Lake St (Temp),19,19,in service,-87.66717,41.88592
+310,Ashland Ave & McDowell Ave,Ashland Ave & McDowell Ave,11,11,in service,-87.66454,41.80887
+305,Ashland Ave & Pershing Rd,Ashland Ave & Pershing Rd,11,11,in service,-87.665577,41.823465
+285,Austin Blvd & Chicago Ave,Austin Blvd & Chicago Ave,11,11,in service,-87.774704,41.894887
+290,Austin Blvd & Lake St,Austin Blvd & Lake St,11,11,in service,-87.774446,41.887919
+302,Austin Blvd & Madison St,Austin Blvd & Madison St,11,11,in service,-87.774453,41.880281
+91,Bissell St & Armitage Ave,Bissell St & Armitage Ave,15,14,in service,-87.65222,41.91844
+96,Blackstone Ave & Hyde Park Blvd,Blackstone Ave & Hyde Park Blvd,19,18,in service,-87.590368,41.802562
+102,Blue Island Ave & 18th St,Blue Island Ave & 18th St,15,14,in service,-87.661535,41.857556
+1,Buckingham Fountain,Buckingham Fountain,39,38,in service,-87.62034,41.87647
+3,Burnham Harbor,Burnham Harbor,23,23,in service,-87.613348,41.856268
+226,California Ave & 21st St,California Ave & 21st St,15,14,in service,-87.695445,41.854016
+273,California Ave & 23rd Pl,California Ave & 23rd Pl,11,11,in service,-87.69513981,41.84910969
+276,California Ave & 26th St,California Ave & 26th St,11,10,in service,-87.69529592,41.84404003
+317,California Ave & Cortez St,California Ave & Cortez St,15,15,in service,-87.696704,41.900363
+168,California Ave & Division St,California Ave & Division St,15,14,in service,-87.697474,41.903029
+181,California Ave & Francis Pl,California Ave & Francis Pl,15,15,in service,-87.696972,41.918121
+242,California Ave & Lake St,California Ave & Lake St,11,10,in service,-87.69629814,41.88445396
+194,California Ave & North Ave,California Ave & North Ave,11,11,in service,-87.6972,41.91044
+221,Calumet Ave & 18th St,Calumet Ave & 18th St,15,15,in service,-87.619407,41.857611
+236,Calumet Ave & 21st St,Calumet Ave & 21st St,15,14,in service,-87.61915374,41.85418425
+118,Calumet Ave & 33rd St,Calumet Ave & 33rd St,11,10,in service,-87.61793,41.8349
+218,Calumet Ave & 35th St,Calumet Ave & 35th St,15,15,in service,-87.618034,41.831379
+261,Calumet Ave & 51st St,Calumet Ave & 51st St,15,15,in service,-87.61805358,41.80229465
+122,Campbell Ave & North Ave,Campbell Ave & North Ave,15,14,in service,-87.689556,41.910535
+145,Canal St & Adams St,Canal St & Adams St,47,47,in service,-87.639904,41.879255
+127,Canal St & Harrison St,Canal St & Harrison St,15,14,in service,-87.639573,41.874255
+63,Canal St & Jackson Blvd,Canal St & Jackson Blvd,39,37,in service,-87.639366,41.877245
+132,Canal St & Madison St,Canal St & Madison St,35,34,in service,-87.639833,41.882091
+144,Canal St & Monroe St (*),Canal St & Monroe St (*),28,1,in service,-87.639507,41.880381
+260,Canal St & Taylor St,Canal St & Taylor St,15,15,in service,-87.639474,41.870257
+75,Carpenter St & Huron St,Carpenter St & Huron St,19,17,in service,-87.653449,41.894556
+308,Central Ave & Chicago Ave,Central Ave & Chicago Ave,11,11,in service,-87.764902,41.894958
+299,Central Ave & Harrison St,Central Ave & Harrison St,11,9,in service,-87.764499,41.872993
+289,Central Ave & Lake St,Central Ave & Lake St,11,10,in service,-87.765469,41.887664
+300,Central Ave & Madison St,Central Ave & Madison St,11,10,in service,-87.763238,41.880121
+271,Central Park Ave & 24th St,Central Park Ave & 24th St,11,10,in service,-87.715068,41.8481
+328,Central Park Ave & Bloomingdale Ave,Central Park Ave & Bloomingdale Ave,11,11,in service,-87.716755,41.914166
+280,Central Park Ave & North Ave,Central Park Ave & North Ave,15,15,in service,-87.71663195,41.90965688
+269,Central Park Ave & Ogden Ave,Central Park Ave & Ogden Ave,15,14,in service,-87.71540584,41.85420431
+291,Central Park Blvd & 5th Ave,Central Park Blvd & 5th Ave,11,10,in service,-87.71547,41.875679
+296,Cicero Ave & Flournoy St,Cicero Ave & Flournoy St,11,11,in service,-87.746619,41.872131
+287,Cicero Ave & Lake St,Cicero Ave & Lake St,11,10,in service,-87.745261,41.886841
+297,Cicero Ave & Quincy St,Cicero Ave & Quincy St,11,11,in service,-87.745405,41.877613
+149,Cityfront Plaza Dr & Pioneer Ct,Cityfront Plaza Dr & Pioneer Ct,23,22,in service,-87.622072,41.890573
+121,Claremont Ave & Hirsch St,1451 N Claremont Ave,11,11,in service,-87.685854,41.907781
+247,Clark St & 9th St (AMLI),Clark St & 9th St (AMLI),15,14,in service,-87.631246,41.870816
+77,Clark St & Armitage Ave,Clark St & Armitage Ave,31,29,in service,-87.636282,41.918306
+220,Clark St & Chicago Ave,Clark St & Chicago Ave,19,17,in service,-87.630931,41.896544
+43,Clark St & Congress Pkwy,Clark St & Congress Pkwy,35,33,in service,-87.63058454,41.87593267
+134,Clark St & Elm St,Clark St & Elm St,38,36,in service,-87.63128,41.902973
+31,Clark St & Lake St,Clark St & Lake St,27,26,in service,-87.63087606,41.88602083
+112,Clark St & Lincoln Ave,Clark St & Lincoln Ave,23,23,in service,-87.6346,41.915689
+100,Clark St & North Ave,Clark St & North Ave,15,14,in service,-87.631942,41.911974
+44,Clark St & Randolph St,120 W. Randolph St.,39,39,in service,-87.63188991,41.88457623
+209,Clark St & Schiller St,Clark St & Schiller St,19,19,in service,-87.631501,41.907993
+172,Clifton Ave & Armitage Ave,Clifton Ave & Armitage Ave,15,15,in service,-87.656936,41.918216
+128,Clinton St & 18th St,Clinton St & 18th St,15,14,in service,-87.640826,41.85795
+327,Clinton St & Jackson Blvd (*),Clinton St & Jackson Blvd (*),16,15,in service,-87.640977,41.878419
+56,Clinton St & Lake St,Clinton St & Lake St,23,21,in service,-87.641823,41.885637
+65,Clinton St & Madison St,5 N Clinton St,31,29,in service,-87.641066,41.882242
+83,Clinton St & Polk St (*),Clinton St & Polk St (*),16,15,in service,-87.64094913,41.87146652
+50,Clinton St & Roosevelt Rd,559 W Roosevelt Rd,15,15,in service,-87.64108796,41.86711778
+57,Clinton St & Tilden St,520 W Tilden St,23,21,in service,-87.640795,41.875885
+74,Clinton St & Washington Blvd,109 N Clinton St,31,29,in service,-87.64117,41.88338
+110,Clybourn Ave & Division St,Clybourn Ave & Division St,15,15,in service,-87.640552,41.904613
+148,Columbus Dr & Randolph St,Columbus Dr & Randolph St,55,51,in service,-87.619521,41.884728
+284,Conservatory Dr & Lake St,Conservatory Dr & Lake St,15,15,in service,-87.716866,41.885502
+263,Cornell Ave & Hyde Park Blvd,Cornell Ave & Hyde Park Blvd,18,18,in service,-87.586924,41.802406
+189,Cottage Grove Ave & 43rd St,Cottage Grove Ave & 43rd St,11,10,in service,-87.606582,41.816499
+219,Cottage Grove Ave & 47th St,Off Street,15,15,in service,-87.606755,41.809855
+228,Cottage Grove Ave & 51st St,Off Street,15,15,in service,-87.606615,41.803038
+186,Cottage Grove Ave & Oakwood Blvd,Cottage Grove Ave & Oakwood Blvd,15,15,in service,-87.6071,41.822985
+67,Daley Center Plaza,Daley Center Plaza,39,38,in service,-87.629634,41.884241
+312,Damen Ave & 51st St,Damen Ave & 51st St,11,10,in service,-87.674684,41.800908
+101,Damen Ave & Chicago Ave,Damen Ave & Chicago Ave,19,19,in service,-87.67722,41.895769
+171,Damen Ave & Cortland St,Damen Ave & Cortland St,15,15,in service,-87.677652,41.915972
+125,Damen Ave & Coulter St,Damen Ave & Coulter St,11,11,in service,-87.67564,41.8492
+98,Damen Ave & Cullerton St,Damen Ave & Cullerton St,15,15,in service,-87.675726,41.855048
+103,Damen Ave & Division St,Damen Ave & Division St,19,19,in service,-87.678435,41.903266
+166,Damen Ave & Grand Ave,Damen Ave & Grand Ave,23,22,in service,-87.67686,41.89122
+167,Damen Ave & Madison St,Damen Ave & Madison St,15,14,in service,-87.67493,41.88137
+304,Damen Ave & Pershing Rd,Damen Ave & Pershing Rd,11,10,in service,-87.676597,41.823192
+58,Damen Ave & Pierce Ave,2002 W Pierce Ave,23,22,in service,-87.67769193,41.90939601
+140,Damen Ave & Thomas St (Augusta Blvd),Damen Ave & Thomas St (Augusta Blvd),23,23,in service,-87.677409,41.901315
+53,Dayton St & North Ave,1575 N Dayton St,19,19,in service,-87.64942193,41.91057804
+111,Dearborn Pkwy & Delaware Pl,Dearborn Pkwy & Delaware Pl,19,15,in service,-87.629912,41.898969
+30,Dearborn St & Adams St,59 W. Adams St,19,19,in service,-87.62979104,41.87935636
+88,Dearborn St & Erie St,Dearborn St & Erie St,27,25,in service,-87.629318,41.893992
+42,Dearborn St & Monroe St,80 S Dearborn St,39,37,in service,-87.62952092,41.88131982
+319,Dearborn St & Van Buren St (*),417 S Dearborn St,16,16,in service,-87.629155,41.876268
+320,Delano Ct & Roosevelt Rd,Delano Ct & Roosevelt Rd,19,19,in service,-87.63219,41.867491
+85,Desplaines St & Jackson Blvd,Desplaines St & Jackson Blvd,27,27,in service,-87.643909,41.878287
+49,Desplaines St & Kinzie St,368 N. Desplaines St.,27,25,in service,-87.64444785,41.88871604
+78,Desplaines St & Randolph St,Desplaines St & Randolph St,23,22,in service,-87.64457059,41.88461619
+262,Dorchester Ave & 49th St,Dorchester Ave & 49th St,15,15,in service,-87.592464,41.805772
+5,Dusable Harbor,Dusable Harbor,39,39,in service,-87.612813,41.886976
+70,Eckhart Park,811 N Noble St,19,19,in service,-87.66098386,41.89637337
+311,Elizabeth St & 47th St,Elizabeth St & 47th St,11,11,in service,-87.656526,41.80839
+212,Elston Ave & Wabansia Ave,Elston Ave & Wabansia Ave,23,23,in service,-87.664169,41.912919
+159,Emerald Ave & 28th St,Emerald Ave & 28th St,15,15,in service,-87.645368,41.84358
+222,Emerald Ave & 31st St,Emerald Ave & 31st St,11,10,in service,-87.645143,41.838198
+18,Fairbanks Ct & Grand Ave,240 E.Grand Ave.,15,14,in service,-87.62062,41.89186
+324,Fairbanks St & Superior St (*),Fairbanks St & Superior St (*),12,12,in service,-87.620104,41.895748
+267,Fairfield Ave & Roosevelt Rd,Fairfield Ave & Roosevelt Rd,11,10,in service,-87.694521,41.866624
+34,Federal St & Polk St,Federal St & Polk St,19,18,in service,-87.62954377,41.87207763
+6,Field Blvd & South Water St,Field Blvd & South Water St,19,18,in service,-87.61751655,41.88634906
+79,Field Museum,Off Street,55,55,in service,-87.617867,41.865312
+72,Financial Pl & Congress Pkwy (Temp),Financial Pl & Congress Pkwy (Temp),15,14,in service,-87.632882,41.874618
+119,Fort Dearborn Dr & 31st St,Fort Dearborn Dr & 31st St,27,27,in service,-87.608218,41.838556
+25,Franklin St & Chicago Ave,805 N. Franklin St,23,23,in service,-87.635633,41.896776
+29,Franklin St & Jackson Blvd,340 S. Franklin St,39,39,in service,-87.63532114,41.87770796
+124,Franklin St & Lake St,Franklin St & Lake St,27,27,in service,-87.6355,41.885837
+205,Franklin St & Monroe St,Franklin St & Monroe St,27,27,in service,-87.635185,41.880317
+204,Franklin St & Quincy St,Franklin St & Quincy St,23,23,in service,-87.634793,41.878724
+151,Green St & Madison St,Green St & Madison St,27,26,in service,-87.648789,41.881892
+90,Green St & Randolph St,Green St & Randolph St,15,15,in service,-87.64867,41.883668
+179,Greenwood Ave & 47th St,Greenwood Ave & 47th St,15,14,in service,-87.599383,41.809835
+155,Halsted St & 18th St,Halsted St & 18th St,15,13,in service,-87.646277,41.857499
+107,Halsted St & 21st St,Halsted St & 21st St,11,11,in service,-87.64665,41.85378
+197,Halsted St & 35th St (*),Halsted St & 35th St (*),16,15,in service,-87.647172,41.830661
+183,Halsted St & 37th St,On Street,11,11,in service,-87.64572,41.827059
+257,Halsted St & 47th Pl,Halsted St & 47th Pl,11,10,in service,-87.64561655,41.80813392
+246,Halsted St & 51st St,Halsted St & 51st St,10,10,in service,-87.6452139,41.80183164
+158,Halsted St & Archer Ave,Halsted St & Archer Ave,15,14,in service,-87.646795,41.847203
+216,Halsted St & Clybourn Ave (*),Halsted St & Clybourn Ave (*),28,25,in service,-87.648128,41.909668
+174,Halsted St & Dickens Ave,Halsted St & Dickens Ave,23,22,in service,-87.64883,41.919936
+200,Halsted St & Maxwell St,Halsted St & Maxwell St,15,15,in service,-87.647071,41.864883
+231,Halsted St & North Branch St,Halsted St & North Branch St,15,15,in service,-87.64847988,41.89936844
+86,Halsted St & Polk St,Halsted St & Polk St,19,19,in service,-87.64664,41.87184
+48,Halsted St & Roosevelt Rd,850 W Roosevelt Rd,23,23,in service,-87.648625,41.867324
+173,Halsted St & Willow St,Halsted St & Willow St,19,19,in service,-87.648755,41.913865
+182,Hermitage Ave & Polk St,Hermitage Ave & Polk St,15,15,in service,-87.669886,41.871514
+11,Honore St & Division St,W. Divison St,23,23,in service,-87.673935,41.903119
+309,Hoyne Ave & 47th St,Hoyne Ave & 47th St,11,11,in service,-87.67718,41.808227
+279,Humboldt Blvd & Armitage Ave,Humboldt Blvd & Armitage Ave,19,19,in service,-87.70180896,41.91751339
+116,Indiana Ave & 26th St,Indiana Ave & 26th St,15,15,in service,-87.622481,41.845687
+190,Indiana Ave & 31st St,Indiana Ave & 31st St,11,10,in service,-87.621857,41.838842
+154,Indiana Ave & 40th St,Indiana Ave & 40th St,11,11,in service,-87.6216,41.82168
+180,Indiana Ave & Roosevelt Rd,Indiana Ave & Roosevelt Rd,39,38,in service,-87.623041,41.867888
+61,Jefferson St & Monroe St,207 S Jefferson St,19,19,in service,-87.642746,41.880422
+292,Karlov Ave & Madison St,Karlov Rd & Madison St,11,10,in service,-87.727907,41.88085
+270,Kedzie Ave & 21st St,Kedzie Ave & 21st St,11,10,in service,-87.70507303,41.85353363
+272,Kedzie Ave & 24th St,Kedzie Ave & 24th St,11,11,in service,-87.70541375,41.84819095
+237,Kedzie Ave & Chicago Ave,Kedzie Ave & Chicago Ave,11,10,in service,-87.70612788,41.8954653
+264,Kedzie Ave & Harrison St,Kedzie Ave & Harrison St,11,10,in service,-87.70487075,41.87359968
+241,Kedzie Ave & Lake St,Kedzie Ave & Lake St,15,15,in service,-87.70630374,41.88460329
+266,Kedzie Ave & Roosevelt Rd,Kedzie Ave & Roosevelt Rd,11,11,in service,-87.70649618,41.86649278
+295,Kenton Ave & Madison St,Kenton Ave & Madison St,11,11,in service,-87.741018,41.880708
+62,Kingsbury St & Erie St,511 W Erie St,23,23,in service,-87.641527,41.893626
+105,Kingsbury St & Kinzie St,Kingsbury St & Kinzie St,31,29,in service,-87.63850577,41.88917683
+303,Kostner Ave & Adams St,Kostner Ave & Adams St,11,11,in service,-87.735737,41.877917
+294,Kostner Ave & Lake St,Kostner Ave & Lake St,11,11,in service,-87.73541,41.885928
+252,Lake Park Ave & 35th St,Lake Park Ave & 35th St,19,19,in service,-87.6087992,41.83127424
+187,Lake Park Ave & 47th St,Lake Park Ave & 47th St,15,15,in service,-87.591875,41.809443
+64,Lake Shore Dr & Monroe St,402 E Monroe St,39,37,in service,-87.616743,41.880958
+188,Lake Shore Dr & North Blvd,Lake Shore Dr & North Blvd,39,34,in service,-87.626804,41.911722
+81,Lake Shore Dr & Ohio St,Lake Shore Dr & Ohio St,19,17,in service,-87.614492,41.89257
+301,Laramie Ave & Gladys Ave,Laramie Ave & Gladys Ave,11,11,in service,-87.755285,41.875806
+288,Laramie Ave & Kinzie St,Laramie Ave & Kinzie St,11,11,in service,-87.755527,41.887832
+298,Laramie Ave & Madison St,Laramie Ave & Madison St,11,10,in service,-87.755337,41.880207
+206,Larrabee St & Armitage Ave,Off Street,15,15,in service,-87.643749,41.918084
+229,Larrabee St & Division St,Larrabee St & Division St,23,22,in service,-87.64335349,41.90348607
+41,Larrabee St & Kingsbury St,840 N Larrabee St,43,43,in service,-87.642884,41.897764
+22,Larrabee St & Menomonee St,590 W. Menomonee,15,15,in service,-87.64332,41.91468
+21,Larrabee St & North Ave,1530 N.Larrabee st,19,18,in service,-87.6435,41.91021
+230,Larrabee St & Oak St,Larrabee St & Oak St,19,19,in service,-87.64298547,41.90021949
+321,LaSalle Dr & Huron St (*),LaSalle Dr & Huron St(*),20,19,in service,-87.632326,41.894877
+33,LaSalle St & Adams St,LaSalle St & Adams St,15,14,in service,-87.63198522,41.87934437
+138,LaSalle St & Illinois St,On Street,31,31,in service,-87.631697,41.890762
+201,LaSalle St & Jackson Blvd,LaSalle St & Jackson Blvd,35,32,in service,-87.631242,41.878217
+80,LaSalle St & Washington St,LaSalle St & Washington St,15,13,in service,-87.63253,41.882664
+7,Leavitt St & Archer Ave,NA1,15,15,in service,-87.68060446,41.82879202
+211,Leavitt St & Armitage Ave,Leavitt St & Armitage Ave,11,1,in service,-87.682437,41.917805
+165,Leavitt St & North Ave,Leavitt St & North Ave,15,15,in service,-87.68229,41.910153
+232,Loomis St & Archer Ave,Loomis St & Archer Ave,11,11,in service,-87.65743495,41.84163254
+115,Loomis St & Jackson Blvd,Loomis St & Jackson Blvd,19,18,in service,-87.662007,41.877945
+214,Loomis St & Lexington St,Loomis St & Lexington St,19,18,in service,-87.661501,41.872187
+13,Loomis St & Taylor St (*),Loomis St & Taylor St (*),16,16,in service,-87.659141,41.868968
+323,Malcolm X College,Malcolm X College,19,18,in service,-87.673895,41.877618
+307,Marshfield Ave & 44th St,Marshfield Ave & 44th St,11,11,in service,-87.666589,41.813996
+51,Marshfield Ave & Cortland St,Marshfield Ave & Cortland St,23,21,in service,-87.668879,41.916017
+129,May St & Cullerton St,May St & Cullerton St,11,11,in service,-87.654127,41.855136
+16,May St & Taylor St,1134 W. Taylor St,15,15,in service,-87.6554864,41.8694821
+113,McClurg Ct & Erie St,660 N McClurg Ct,31,27,in service,-87.617854,41.894503
+20,McClurg Ct & Illinois St,McClurg Ct & Illinois St,31,31,in service,-87.617532,41.890359
+55,McCormick Place,2253 S Dr Martin Luther King Jr Dr,27,25,in service,-87.61883465,41.85137517
+126,Michigan Ave & 14th St,Michigan Ave & 14th St,19,19,in service,-87.623727,41.864059
+191,Michigan Ave & 18th St,Michigan Ave & 18th St,23,23,in service,-87.62455,41.857813
+318,Michigan Ave & 8th St,Michigan Ave & 8th St,42,42,in service,-87.623981,41.872773
+38,Michigan Ave & Congress Pkwy,420 w. Michigan,15,15,in service,-87.624426,41.876243
+202,Michigan Ave & Jackson Blvd,Michigan Ave & Jackson Blvd,23,22,in service,-87.62408,41.87785
+45,Michigan Ave & Lake St,203 N Michigan Ave,35,32,in service,-87.624117,41.886024
+150,Michigan Ave & Madison St,Michigan Ave & Madison St,19,18,in service,-87.625125,41.882134
+69,Michigan Ave & Oak St,140 E Oak St,23,23,in service,-87.62377664,41.90096039
+19,Michigan Ave & Pearson St,150 E.Pearson st,23,19,in service,-87.62351,41.89766
+36,Michigan Ave & Washington St,120 N Michigan,43,41,in service,-87.62464914,41.88389277
+114,Mies van der Rohe Way & Chestnut St,Mies van der Rohe Way & Chestnut St,19,18,in service,-87.62191523,41.89858665
+131,Mies van der Rohe Way & Chicago Ave,Mies van der Rohe Way & Chicago Ave,15,15,in service,-87.621743,41.89691
+274,Millard Ave & 26th St,Millard Ave & 26th St,6,5,in service,-87.71591031,41.84456685
+73,Millennium Park,33 S Michigan Ave,47,43,in service,-87.62408432,41.8810317
+68,Milwaukee Ave & Grand Ave,500 N Milwaukee Ave.,19,15,in service,-87.648384,41.891578
+120,Milwaukee Ave & Wabansia Ave,Milwaukee Ave & Wabansia Ave,15,15,in service,-87.681391,41.912616
+177,MLK Jr Dr & 29th St,MLK Jr Dr & 29th St,19,19,in service,-87.617,41.842052
+153,MLK Jr Dr & 47th St,MLK Jr Dr & 47th St,11,11,in service,-87.616279,41.809851
+136,MLK Jr Dr & Pershing Rd,Off Steet,15,13,in service,-87.61678,41.8246
+109,Morgan Ave & 14th Pl,Morgan Ave & 14th Pl,15,15,in service,-87.651062,41.862378
+8,Morgan St & 18th St,962 W. 18th St,15,15,in service,-87.651073,41.858086
+198,Morgan St & 31st St,Morgan St & 31st St,11,11,in service,-87.65114,41.8378
+59,Morgan St & Lake St,1003 W. Lake St.,23,22,in service,-87.65230486,41.88548331
+306,Morgan St & Pershing Rd,Morgan St & Pershing Rd,11,10,in service,-87.650931,41.823613
+178,Morgan St & Polk St,Morgan St & Polk St,19,19,in service,-87.65103,41.871737
+23,Noble St & Milwaukee Ave,1016 N. Noble St,15,15,in service,-87.6626,41.90068
+161,Normal Ave & Archer Ave,Normal Ave & Archer Ave,11,10,in service,-87.640591,41.849527
+47,Ogden Ave & Chicago Ave,1040 W. Chicago Ave.,19,19,in service,-87.65406127,41.89636246
+97,Ogden Ave & Congress Pkwy,Ogden Ave & Congress Pkwy,15,14,in service,-87.67328,41.87501
+143,Ogden Ave & Race Ave,Ogden Ave & Race Ave,15,15,in service,-87.658751,41.891795
+265,Ogden Ave & Roosevelt Rd,Ogden Ave & Roosevelt Rd,18,17,in service,-87.68469707,41.86650148
+315,Orleans St & Chestnut St (NEXT Apts),Orleans St & Chestnut St (NEXT Apts),15,13,in service,-87.637536,41.898203
+17,Orleans St & Elm St (*),350 W. Elm st,16,16,in service,-87.637715,41.902924
+325,Orleans St & Hubbard St (*),Orleans St & Hubbard St (*),12,11,in service,-87.636618,41.890028
+82,Orleans St & Merchandise Mart Plaza,333 N Orleans St,35,33,in service,-87.63639,41.888243
+10,Paulina Ave & North Ave,1575 N Paulina Ave,15,13,in service,-87.670072,41.910337
+157,Paulina St & 18th St,Paulina St & 18th St,15,13,in service,-87.668745,41.857901
+106,Peoria St & Jackson Blvd,Peoria St & Jackson Blvd,19,18,in service,-87.649633,41.877749
+256,Prairie Ave & 43rd St,Prairie Ave & 43rd St,15,15,in service,-87.61941246,41.81665889
+258,Princeton Ave & 47th St,Princeton Ave & 47th St,11,11,in service,-87.63344929,41.80931771
+293,Pulaski Rd & Congress Pkwy,Pulaski Rd & Congress Pkwy,11,11,in service,-87.725704,41.874325
+286,Pulaski Rd & Lake St,Pulaski Rd & Lake St,11,10,in service,-87.726491,41.885409
+108,Racine Ave & 13th St,Racine Ave & 13th St,15,14,in service,-87.656959,41.865054
+192,Racine Ave & 15th St,Racine Ave & 15th St,15,14,in service,-87.656625,41.861267
+9,Racine Ave & 18th St,1726 S Racine Ave,15,12,in service,-87.656495,41.858166
+233,Racine Ave & 35th St,Racine Ave & 35th St,15,15,in service,-87.65597591,41.83069611
+26,Racine Ave & Congress Pkwy,550 S. Racine,19,15,in service,-87.65703,41.87464
+71,Racine Ave & Randolph St,1213 W Randolph St,19,19,in service,-87.656853,41.884069
+169,Racine Ave (May St) & Fulton St,Racine Ave (May St) & Fulton St,14,11,in service,-87.656919,41.886926
+184,Rhodes Ave & 32nd St,Rhodes Ave & 32nd St,11,11,in service,-87.613533,41.836208
+137,Ritchie Ct & Banks St,Ritchie Ct & Banks St,15,14,in service,-87.626217,41.906866
+130,Rush St & Cedar St,Rush St & Cedar St,11,9,in service,-87.62769053,41.9023087
+99,Rush St & Hubbard St,Rush St & Hubbard St,23,19,in service,-87.626185,41.890173
+123,Rush St & Superior St,Rush St & Superior St,23,23,in service,-87.62590803,41.89576475
+239,Sacramento Blvd & Franklin Blvd,Sacramento Blvd & Franklin Blvd,11,10,in service,-87.70103,41.889727
+175,Sangamon St & Washington Blvd (*),Sangamon St & Washington Blvd (*),16,16,in service,-87.6511,41.883165
+89,Sedgwick St & Huron St,Sedgwick St & Huron St,27,26,in service,-87.638437,41.894666
+93,Sedgwick St & North Ave,Sedgwick St & North Ave,19,19,in service,-87.638677,41.911386
+176,Sedgwick St & Schiller St,Sedgwick St & Schiller St,15,14,in service,-87.638566,41.907626
+2,Shedd Aquarium,Shedd Aquarium,55,54,in service,-87.61535539,41.86722596
+14,Sheffield Ave & Kingsbury St,Sheffield Ave & Kingsbury St,15,12,in service,-87.653106,41.910522
+76,Sheffield Ave & Willow St,1740 N Sheffield Ave,15,13,in service,-87.652855,41.913688
+248,Shields Ave & 28th Pl,Shields Ave & 28th Pl,11,10,in service,-87.635491,41.842733
+249,Shields Ave & 31st St,Shields Ave & 31st St,15,15,in service,-87.635406,41.838464
+255,Shields Ave & 43rd St,Shields Ave & 43rd St,11,11,in service,-87.63481935,41.81620768
+329,Smith Park (*),Smith Park (*),12,12,in service,-87.689397,41.892048
+278,Spaulding Ave & Armitage Ave,Spaulding Ave & Armitage Ave,15,14,in service,-87.71035665,41.91718375
+282,Spaulding Ave & Division St,Spaulding Ave & Division St,15,15,in service,-87.70921957,41.90270659
+163,St. Clair St & Erie St,St. Clair St & Erie St,19,19,in service,-87.622663,41.894448
+135,State St & 19th St,State St & 19th St,15,14,in service,-87.627542,41.856594
+146,State St & 29th St,State St & 29th St,15,15,in service,-87.626938,41.841707
+117,State St & 33rd St,State St & 33rd St,15,12,in service,-87.625813,41.834734
+141,State St & 35th St,State St & 35th St,19,18,in service,-87.62688,41.83104
+4,State St & Harrison St,620 S. State St.,23,23,in service,-87.627716,41.874053
+40,State St & Kinzie St,5 E Kinzie St,31,30,in service,-87.627754,41.889187
+84,State St & Pearson St,State St & Pearson St,27,27,in service,-87.628722,41.897448
+253,State St & Pershing Rd,State St & Pershing Rd,11,11,in service,-87.62656802,41.82301524
+37,State St & Randolph St,State St & Randolph St,27,26,in service,-87.62773357,41.8847302
+27,State St & Van Buren St,360 S State St,27,27,in service,-87.627844,41.877181
+142,Stave St & Armitage Ave,Stave St & Armitage Ave,11,11,in service,-87.691392,41.917741
+185,Stetson Ave & South Water St,Stetson Ave & South Water St,19,17,in service,-87.62232,41.886835
+28,Streeter Dr & Grand Ave,Navy Pier,47,44,in service,-87.612043,41.892278
+281,Troy St & North Ave,Troy St & North Ave,15,15,in service,-87.70528049,41.9097693
+254,Union Ave & Root St,Union Ave & Root St,11,11,in service,-87.643278,41.819102
+60,Wabash Ave & 16th St,1590 S Wabash Ave,39,39,in service,-87.625813,41.860384
+215,Wabash Ave & 9th St,Wabash Ave & 9th St,19,17,in service,-87.625734,41.870769
+32,Wabash Ave & Adams St,Wabash Ave & Adams St,23,19,in service,-87.62568861,41.87947235
+35,Wabash Ave & Cermak Rd,13 E Cermak Rd,11,11,in service,-87.626488,41.852619
+152,Wabash Ave & Grand Ave,Wabash Ave & Grand Ave,31,30,in service,-87.626761,41.891466
+52,Wabash Ave & Roosevelt Rd,1210 S Wabash Ave,23,23,in service,-87.625961,41.867227
+147,Wabash Ave & Wacker Pl,Wabash Ave & Wacker Pl,19,18,in service,-87.62603,41.886875
+12,Wacker Dr & Washington St,Wacker Dr & Washington St,19,16,in service,-87.637321,41.883132
+196,Wallace St & 35th St,On Street,15,15,in service,-87.64129,41.830629
+322,Walsh Park,Off-Street,23,23,in service,-87.667968,41.91461
+268,Washtenaw Ave & Ogden Ave (*),Washtenaw Ave & Ogden Ave (*),16,14,in service,-87.693511,41.861894
+170,Wells St & 19th St,Wells St & 19th St,11,10,in service,-87.633879,41.856802
+207,Wells St & Concord Ln,Wells St & Concord Ln,19,19,in service,-87.634656,41.912133
+139,Wells St & Elm St,Wells St & Elm St,23,22,in service,-87.634324,41.903222
+208,Wells St & Evergreen Ave,Wells St & Evergreen Ave,19,18,in service,-87.63483,41.906724
+164,Wells St & Hubbard St,Wells St & Hubbard St,31,30,in service,-87.634266,41.889906
+46,Wells St & Huron St,Wells St & Huron St,27,27,in service,-87.634362,41.894722
+133,Wells St & Polk St,Wells St & Polk St,19,19,in service,-87.633502,41.872596
+39,Wells St & Walton St,932 N Wells St,19,18,in service,-87.63443007,41.89993001
+104,Wentworth Ave & 24th St,Wentworth Ave & 24th St,15,15,in service,-87.631715,41.849237
+250,Wentworth Ave & 33rd St,Wentworth Ave & 33rd St,15,14,in service,-87.63182298,41.83452989
+251,Wentworth Ave & 35th St,Wentworth Ave & 35th St,15,15,in service,-87.632504,41.830777
+95,Wentworth Ave & Cermak Rd (Temp),Wentworth Ave & Cermak Rd (Temp),19,18,in service,-87.630578,41.853005
+156,Western Ave & 21st St,Western Ave & 21st St,15,15,in service,-87.685838,41.854109
+199,Western Ave & 24th St,Western Ave & 24th St,10,10,in service,-87.685109,41.84847
+277,Western Ave & 28th St,Western Ave & 28th St,11,11,in service,-87.68513144,41.84151771
+244,Western Ave & Congress Pkwy,Western Ave & Congress Pkwy,19,18,in service,-87.68644528,41.87474885
+210,Western Ave & Division St,Western Ave & Division St,23,22,in service,-87.687275,41.902893
+243,Western Ave & Monroe St,Western Ave & Monroe St,15,15,in service,-87.68611281,41.87978771
+238,Western Ave & Walton St,Western Ave & Walton St,23,22,in service,-87.68659602,41.89841769
+92,Western Ave & Winnebago Ave,Western Ave & Winnebago Ave,15,15,in service,-87.687022,41.91552
+314,Western Blvd & 48th Pl,Western Blvd & 48th Pl,11,11,in service,-87.683392,41.805661
+224,Wolcott Ave & Polk St,Wolcott Ave & Polk St,23,22,in service,-87.673688,41.871262
+235,Wood St & 35th St,NA1,11,10,in service,-87.67029831,41.83010465
+330,Wood St & Augusta Blvd,Wood St & Augusta Blvd,11,10,in service,-87.6722,41.899181
+326,Wood St & Chicago Ave (*),Wood St & Chicago Ave (*),12,11,in service,-87.672069,41.895634
+203,Wood St & Hubbard St,Off Street,19,19,in service,-87.671956,41.889587
+54,Wood St & Milwaukee Ave,1416 N Wood St,19,18,in service,-87.672552,41.907655
+213,Wood St & Taylor St,Wood St & Taylor St,23,22,in service,-87.671045,41.869154
+259,Woodlawn Ave & Lake Park Ave,Woodlawn Ave & Lake Park Ave,15,15,in service,-87.59700515,41.81409271

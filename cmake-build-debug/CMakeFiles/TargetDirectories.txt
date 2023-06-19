@@ -1,0 +1,5 @@
+D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug/CMakeFiles/CyclingSystem.dir
+D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug/CMakeFiles/CyclingSystem_autogen_timestamp_deps.dir
+D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug/CMakeFiles/CyclingSystem_autogen.dir
