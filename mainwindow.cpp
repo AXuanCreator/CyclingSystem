@@ -16,9 +16,11 @@ MainWindow::MainWindow(QWidget* parent)
 
 	ui->labelS->hide();
 	ui->labelE->hide();
+	bikeStatus(0); // 隐藏状态信息
 
 	cbInit();
-	comboGet();
+	bikeInit();
+	comboInit();
 
 	//连接区域
 
@@ -28,21 +30,26 @@ MainWindow::MainWindow(QWidget* parent)
 	connect(ui->comboE, QOverload<int>::of(&QComboBox::currentIndexChanged), this, [this](int index)
 	{ showStation(index, false); });
 
+	// [连接comboBox和信息显示框tbInfoOut显示]使用了Lambda
+	connect(ui->comboS, QOverload<int>::of(&QComboBox::currentIndexChanged), this, [this](int index)
+	{ bikeChecked(index, true); });
+	connect(ui->comboE, QOverload<int>::of(&QComboBox::currentIndexChanged), this, [this](int index)
+	{ bikeChecked(index, false); });
+
 	// [连接radioButton和地图所有label显示]
 	connect(ui->rbShowStation, &QPushButton::toggled, this, &MainWindow::showAllStationConnect);
 
 	// [连接radioButton和重置]
-	connect(ui->pbRecharge,&QPushButton::clicked,this,[this](){reCharge(3);});
+	connect(ui->pbRecharge, &QPushButton::clicked, this, [this]()
+	{ reCharge(-1); });
 
 	// [连接地图某个checkBox和comboBox显示]
 	for (auto& cb : cbArr)
 	{
 		QString name = cb->text();
 		connect(cb, &QCheckBox::stateChanged, this, [this, name](int state)
-		{ chooseStation(state, name);});
+		{ chooseStation(state, name); });
 	}
-
-
 
 }
 
@@ -54,12 +61,12 @@ MainWindow::~MainWindow()
 }
 
 /*
- * 函数名 : comboGet
+ * 函数名 : comboInit
  * In : null
  * Out : null
  * 作用 : 填充comboBox
  */
-void MainWindow::comboGet()
+void MainWindow::comboInit()
 {
 	QStringList stationNameList = csvInfoGet(1); // 获取第二列信息
 	QStringList stationIdList = csvInfoGet(0);   // 获取第一列信息
@@ -83,7 +90,6 @@ QStringList MainWindow::csvInfoGet(int indexCol)
 
 	if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
 	{
-		ui->tbInfoOut->setText("ERROR,Please Download The Software Again");
 		return {};
 	}
 
@@ -141,7 +147,6 @@ QString MainWindow::fileInfoGet(int row, int col)
 
 	if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
 	{
-		ui->tbInfoOut->setText("ERROR");
 		return {};
 	}
 
@@ -248,7 +253,7 @@ void MainWindow::chooseStation(int state, QString name)
 {
 	if (!state)
 	{
-		if(chooseCount==1)
+		if (chooseCount == 1)
 		{
 			ui->comboS->setCurrentIndex(0);
 			--chooseCount;
@@ -257,14 +262,14 @@ void MainWindow::chooseStation(int state, QString name)
 	}
 
 
-	if(chooseCount==0)
+	if (chooseCount == 0)
 		reCharge(1);
 
 	++chooseCount;
 
 	if (state == Qt::Checked)   // 当勾选上时
 	{
-		if(chooseCount==1)
+		if (chooseCount == 1)
 		{
 			ui->comboS->setCurrentIndex(name.toInt());  // 将Start复选框移动
 		}
@@ -281,26 +286,134 @@ void MainWindow::chooseStation(int state, QString name)
 	}
 }
 
-
 /*
- *
+ * 函数名 : recharge
+ * In : mode[模式选择]
+ * Out : void
+ * 作用 : 根据mode进行重置
  */
 void MainWindow::reCharge(int mode)
 {
-	if(mode==1) // 重置comboBox
+	if (mode == 1) // 重置comboBox
 	{
 		ui->comboS->setCurrentIndex(0);
 		ui->comboE->setCurrentIndex(0);
 	}
-	else if(mode==2)   // 重置复选框
+	else if (mode == 2)   // 重置复选框
 	{
-		for(auto&cb:cbArr)
+		for (auto& cb : cbArr)
 			cb->setChecked(false);
 	}
-	else if(mode==3)    // 全部重置
+	else if (mode == -1)    // 全部重置
 	{
 		reCharge(1);
 		reCharge(2);
+		bikeStatus(0);
+	}
+}
+
+/*
+ * 函数名 : bikeInit
+ * In : void
+ * Out : void
+ * 作用 : 根据csv信息来初始化单车总量和单车可用量
+ */
+void MainWindow::bikeInit()
+{
+	QStringList bikeTotal = csvInfoGet(3);
+	QStringList bikeService = csvInfoGet(4);
+
+	bikeArr.resize(2);
+	bikeArr[0].resize(bikeTotal.size());
+	bikeArr[1].resize(bikeService.size());
+
+	for (int i = 1; i < ROW; ++i)
+	{
+		bool checkedA, checkedB;
+		int valT = bikeTotal.at(i).toInt(&checkedA);
+		int valS = bikeService.at(i).toInt(&checkedB);
+		if (checkedA && checkedB)
+		{
+			bikeArr[0][i] = valT;
+			bikeArr[1][i] = valS;
+		}
+	}
+}
+
+/*
+ * 函数名 : bikeChecked
+ * In : index[combo的索引]
+ * Out : void
+ * 作用 : 根据索引查询相对应的单车总量和可用单车
+ */
+void MainWindow::bikeChecked(int index, bool checked)
+{
+	int totalInt = bikeArr[0][index];
+	int serviceInt = bikeArr[1][index];
+
+
+	if (checked)
+	{
+		ui->lcdStartTotal->display(totalInt);
+		ui->lcdStartService->display(serviceInt);
+		if(serviceInt>0)
+		{
+			bikeStatus(-2); // 更改状态
+			bikeStatus(1);
+		}
+		else
+		{
+			bikeStatus(-1);
+			bikeStatus(2);
+		}
+
+	}
+	else
+	{
+		ui->lcdEndTotal->display(totalInt);
+		ui->lcdEndService->display(serviceInt);
+		if(totalInt>serviceInt)
+		{
+			bikeStatus(-4); // 更改状态
+			bikeStatus(3);
+		}
+		else
+		{
+			bikeStatus(-3);
+			bikeStatus(4);
+		}
+
+	}
+
+}
+
+
+/*
+ *
+ */
+void MainWindow::bikeStatus(int mode)
+{
+	switch (mode)
+	{
+	case 0:
+		bikeStatus(-1);
+		bikeStatus(-2);
+		bikeStatus(-3);
+		bikeStatus(-4);
+		break;
+
+	case 1:ui->labelBikeStartGood->show();break;
+	case -1:ui->labelBikeStartGood->hide();break;
+
+	case 2:ui->labelBikeStartBad->show();break;
+	case -2:ui->labelBikeStartBad->hide();break;
+
+	case 3:ui->labelBikeEndGood->show();break;
+	case -3:ui->labelBikeEndGood->hide(); break;
+
+	case 4:ui->labelBikeEndBad->show();break;
+	case -4:ui->labelBikeEndBad->hide();break;
+	default:return;
 	}
 }
 

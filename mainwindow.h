@@ -14,6 +14,8 @@
 #include <QCheckBox>
 #include <QThread>
 #include <QDebug>
+#include <QTextBrowser>
+#include <QPalette>
 
 QT_BEGIN_NAMESPACE
 namespace Ui
@@ -39,23 +41,27 @@ public:
 private:
 	Ui::MainWindow* ui;
 	QVector<QCheckBox*> cbArr;
+	QVector<QVector<int>> bikeArr;
 private:
 	// .cpp每一个函数前都拥有该函数的参数注释信息
 
-	void comboGet();                                       // 填充comboBox
+	void comboInit();                                       // 填充comboBox
 	void cbInit();                                         // 站点初始化
-
+	void bikeInit();                                       // 自行车数量初始化
+	void bikeStatus(int mode);                                     // 自行车状态
 
 
 	QPair<int, int> mapPointGet(int index);                // 获取指定行的地图对应坐标
 	QString fileInfoGet(int row , int col);                // 获取csv文件中指定行列的内容
 	QStringList csvInfoGet(int indexCol);                  // 返回指定列的指定信息 TODO:[优化]这里可以改为template
 
+	// 槽函数
 private slots:
 	void reCharge(int mode);                                       // 重置
 	void showStation(int index, bool sw);
 	void showAllStationConnect(bool checked);
 	void chooseStation(int state, QString name);
+	void bikeChecked(int index, bool checked);
 
 };
 

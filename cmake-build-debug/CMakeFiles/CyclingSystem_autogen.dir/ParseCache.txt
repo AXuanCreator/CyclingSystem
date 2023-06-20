@@ -99,6 +99,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qvariant.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qvarlengtharray.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qversiontagging.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QPalette
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qbitmap.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qbrush.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qcolor.h
@@ -111,6 +112,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qkeysequence.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpaintdevice.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpalette.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpen.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpicture.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpixelformat.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpixmap.h
@@ -118,7 +120,10 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qregion.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qrgb.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qrgba64.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtextcursor.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtextdocument.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtextformat.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtextoption.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtgui-config.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtguiglobal.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtransform.h
@@ -126,12 +131,16 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qwindowdefs_win.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QCheckBox
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QLabel
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QTextBrowser
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QWidget
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qabstractbutton.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qabstractscrollarea.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qcheckbox.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qframe.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qlabel.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qsizepolicy.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qtextbrowser.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qtextedit.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qtwidgets-config.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qwidget.h

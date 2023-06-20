@@ -1,6 +1,8 @@
 <RCC>
   <qresource prefix="img">
+    <file>image/bad.png</file>
     <file>image/end.png</file>
+    <file>image/damuzhi.png</file>
     <file>image/start.png</file>
     <file>image/map.png</file>
     <file></file>

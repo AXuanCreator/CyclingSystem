@@ -96,6 +96,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug/Cycli
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qvariant.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qvarlengtharray.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qversiontagging.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QPalette \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qbitmap.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qbrush.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qcolor.h \
@@ -108,6 +109,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug/Cycli
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qkeysequence.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpaintdevice.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpalette.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpen.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpicture.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpixelformat.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpixmap.h \
@@ -115,7 +117,10 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug/Cycli
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qregion.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qrgb.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qrgba64.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtextcursor.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtextdocument.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtextformat.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtextoption.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtgui-config.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtguiglobal.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtransform.h \
@@ -123,12 +128,16 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug/Cycli
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QCheckBox \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QLabel \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QTextBrowser \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QWidget \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qabstractbutton.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qabstractscrollarea.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qcheckbox.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qframe.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qlabel.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qsizepolicy.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qtextbrowser.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qtextedit.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qtwidgets-config.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qwidget.h \
