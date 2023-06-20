@@ -3,9 +3,114 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mmc:Q_OBJECT
  mdp:D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug/CyclingSystem_autogen/moc_predefs.h
+ mdp:D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/map.h
+ mdp:D:/SoftWare_Work/Opencv/opencv-build/opencv2/opencv_modules.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/include/opencv2/opencv.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/calib3d/include/opencv2/calib3d.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/affine.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/async.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/base.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/bufferpool.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/check.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/cuda.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/cuda.inl.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/cuda_types.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/cv_cpu_dispatch.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/cvdef.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/cvstd.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/cvstd.inl.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/cvstd_wrapper.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/fast_math.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/hal/interface.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/mat.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/mat.inl.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/matx.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/neon_utils.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/operations.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/optim.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/ovx.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/persistence.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/saturate.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/traits.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/types.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/utility.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/version.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/vsx_utils.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/dnn/include/opencv2/dnn.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/dnn/include/opencv2/dnn/dict.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/dnn/include/opencv2/dnn/dnn.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/dnn/include/opencv2/dnn/dnn.inl.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/dnn/include/opencv2/dnn/layer.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/dnn/include/opencv2/dnn/utils/inference_engine.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/dnn/include/opencv2/dnn/version.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/features2d/include/opencv2/features2d.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/all_indices.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/allocator.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/any.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/autotuned_index.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/composite_index.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/config.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/defines.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/dist.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/dynamic_bitset.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/flann_base.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/general.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/ground_truth.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/heap.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/index_testing.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/kdtree_index.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/kdtree_single_index.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/kmeans_index.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/linear_index.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/logger.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/lsh_index.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/lsh_table.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/matrix.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/miniflann.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/nn_index.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/params.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/random.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/result_set.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/sampling.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/saving.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/timer.h
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/highgui/include/opencv2/highgui.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/imgcodecs/include/opencv2/imgcodecs.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/imgproc/include/opencv2/imgproc.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/imgproc/include/opencv2/imgproc/segmentation.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/ml/include/opencv2/ml.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/ml/include/opencv2/ml/ml.inl.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/objdetect/include/opencv2/objdetect.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/objdetect/include/opencv2/objdetect/aruco_board.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/objdetect/include/opencv2/objdetect/aruco_detector.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/objdetect/include/opencv2/objdetect/aruco_dictionary.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/objdetect/include/opencv2/objdetect/charuco_detector.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/objdetect/include/opencv2/objdetect/detection_based_tracker.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/objdetect/include/opencv2/objdetect/face.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/photo/include/opencv2/photo.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/blenders.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/camera.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/matchers.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/util.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/warpers.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/warpers.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/video/include/opencv2/video.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/video/include/opencv2/video/background_segm.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/video/include/opencv2/video/tracking.hpp
+ mdp:D:/SoftWare_Work/Opencv/sources/modules/videoio/include/opencv2/videoio.hpp
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QDebug
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QDir
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QFile
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QIODevice
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QString
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QTextStream
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QThread
@@ -31,12 +136,16 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qcontainerinfo.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qcontainertools_impl.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qcontiguouscache.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qcoreapplication.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qcoreapplication_platform.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qcoreevent.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qdatastream.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qdatetime.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qdeadlinetimer.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qdebug.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qdir.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qelapsedtimer.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qeventloop.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qfile.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qfiledevice.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qfileinfo.h
@@ -60,6 +169,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qmetacontainer.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qmetatype.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qnamespace.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qnativeinterface.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qnumeric.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qobject.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qobject_impl.h
@@ -99,6 +209,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qvariant.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qvarlengtharray.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qversiontagging.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QImage
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QPalette
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qbitmap.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qbrush.h
@@ -107,8 +218,11 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qfont.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qfontinfo.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qfontmetrics.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qguiapplication.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qguiapplication_platform.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qicon.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qimage.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qinputmethod.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qkeysequence.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpaintdevice.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpalette.h
@@ -129,12 +243,14 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtransform.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qwindowdefs.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qwindowdefs_win.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QApplication
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QCheckBox
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QLabel
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QTextBrowser
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QWidget
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qabstractbutton.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qabstractscrollarea.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qapplication.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qcheckbox.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qframe.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qlabel.h
@@ -172,6 +288,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/deque.tcc
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/enable_special_members.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/erase_if.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h
@@ -186,6 +303,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/invoke.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/iterator_concepts.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h
@@ -220,6 +338,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_atomic.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_base.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/specfun.h
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/sstream.tcc
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_function.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_mutex.h
@@ -227,6 +346,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_deque.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_heap.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator.h
@@ -235,10 +355,13 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_list.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_map.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_multimap.h
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_multiset.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_numeric.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_pair.h
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_queue.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_raw_storage_iter.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_relops.h
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_set.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tempbuf.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tree.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h
@@ -254,14 +377,18 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uses_allocator_args.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cfloat
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/climits
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cmath
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/codecvt
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/compare
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/complex
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/concepts
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstddef
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime
@@ -269,6 +396,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/deque
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h
@@ -285,12 +413,16 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iomanip
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/limits
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/locale
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/map
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/math.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/memory
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/mutex
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/numbers
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/numeric
@@ -300,6 +432,9 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_algorithm_defs.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_memory_defs.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_numeric_defs.h
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/queue
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/set
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/sstream
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf
@@ -337,9 +472,14 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/time_members.h
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/emmintrin.h
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/float.h
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdarg.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h
+ mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mingw.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mingw_mac.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mingw_off_t.h
@@ -376,6 +516,8 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
+D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/map.h
+D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/main.cpp
 D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.cpp
  uic:ui_mainwindow.h
-D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/main.cpp
+D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/map.cpp

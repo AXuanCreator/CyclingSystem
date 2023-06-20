@@ -5,6 +5,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include "map.h"
+
 #include <QWidget>
 #include <QFile>
 #include <QString>
@@ -30,6 +32,7 @@ constexpr double y_scale = 490 / 0.11903; // y轴比例因子
 #define ROW 28
 
 static int chooseCount = 0; // 选择的次数
+
 class MainWindow : public QWidget
 {
 Q_OBJECT
@@ -40,6 +43,7 @@ public:
 
 private:
 	Ui::MainWindow* ui;
+	Map* map;
 	QVector<QCheckBox*> cbArr;
 	QVector<QVector<int>> bikeArr;
 private:

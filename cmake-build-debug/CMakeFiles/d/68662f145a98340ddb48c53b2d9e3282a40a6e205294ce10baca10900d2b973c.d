@@ -8,6 +8,8 @@ CyclingSystem_autogen/timestamp: \
   D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/main.cpp \
   D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.cpp \
   D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h \
+  D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/map.cpp \
+  D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/map.h \
   D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/resource.qrc \
   D:/SoftWare_Work/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake \
   D:/SoftWare_Work/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake \
@@ -45,9 +47,116 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake \
   D:/SoftWare_Work/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake \
   D:/SoftWare_Work/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake \
+  D:/SoftWare_Work/Opencv/opencv-build/OpenCVConfig-version.cmake \
+  D:/SoftWare_Work/Opencv/opencv-build/OpenCVConfig.cmake \
+  D:/SoftWare_Work/Opencv/opencv-build/OpenCVModules.cmake \
+  D:/SoftWare_Work/Opencv/opencv-build/opencv2/opencv_modules.hpp \
+  D:/SoftWare_Work/Opencv/sources/include/opencv2/opencv.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/calib3d/include/opencv2/calib3d.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/affine.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/async.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/base.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/bufferpool.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/check.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/cuda.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/cuda.inl.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/cuda_types.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/cv_cpu_dispatch.h \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/cvdef.h \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/cvstd.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/cvstd.inl.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/cvstd_wrapper.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/fast_math.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/hal/interface.h \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/mat.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/mat.inl.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/matx.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/neon_utils.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/operations.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/optim.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/ovx.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/persistence.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/saturate.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/traits.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/types.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/utility.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/version.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/core/include/opencv2/core/vsx_utils.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/dnn/include/opencv2/dnn.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/dnn/include/opencv2/dnn/dict.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/dnn/include/opencv2/dnn/dnn.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/dnn/include/opencv2/dnn/dnn.inl.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/dnn/include/opencv2/dnn/layer.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/dnn/include/opencv2/dnn/utils/inference_engine.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/dnn/include/opencv2/dnn/version.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/features2d/include/opencv2/features2d.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/all_indices.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/allocator.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/any.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/autotuned_index.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/composite_index.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/config.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/defines.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/dist.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/dynamic_bitset.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/flann_base.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/general.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/ground_truth.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/heap.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/index_testing.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/kdtree_index.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/kdtree_single_index.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/kmeans_index.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/linear_index.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/logger.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/lsh_index.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/lsh_table.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/matrix.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/miniflann.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/nn_index.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/params.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/random.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/result_set.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/sampling.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/saving.h \
+  D:/SoftWare_Work/Opencv/sources/modules/flann/include/opencv2/flann/timer.h \
+  D:/SoftWare_Work/Opencv/sources/modules/highgui/include/opencv2/highgui.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/imgcodecs/include/opencv2/imgcodecs.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/imgproc/include/opencv2/imgproc.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/imgproc/include/opencv2/imgproc/segmentation.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/ml/include/opencv2/ml.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/ml/include/opencv2/ml/ml.inl.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/objdetect/include/opencv2/objdetect.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/objdetect/include/opencv2/objdetect/aruco_board.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/objdetect/include/opencv2/objdetect/aruco_detector.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/objdetect/include/opencv2/objdetect/aruco_dictionary.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/objdetect/include/opencv2/objdetect/charuco_detector.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/objdetect/include/opencv2/objdetect/detection_based_tracker.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/objdetect/include/opencv2/objdetect/face.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/photo/include/opencv2/photo.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/blenders.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/camera.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/matchers.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/util.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/warpers.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/stitching/include/opencv2/stitching/warpers.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/video/include/opencv2/video.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/video/include/opencv2/video/background_segm.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/video/include/opencv2/video/tracking.hpp \
+  D:/SoftWare_Work/Opencv/sources/modules/videoio/include/opencv2/videoio.hpp \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QDebug \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QDir \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QFile \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QIODevice \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QString \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QTextStream \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QThread \
@@ -73,12 +182,16 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qcontainerinfo.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qcontainertools_impl.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qcontiguouscache.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qcoreapplication.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qcoreapplication_platform.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qcoreevent.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qdatastream.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qdatetime.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qdeadlinetimer.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qdebug.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qdir.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qelapsedtimer.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qeventloop.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qfile.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qfiledevice.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qfileinfo.h \
@@ -102,6 +215,7 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qmetacontainer.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qmetatype.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qnamespace.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qnativeinterface.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qnumeric.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qobject.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qobject_impl.h \
@@ -141,6 +255,7 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qvariant.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qvarlengtharray.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qversiontagging.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QImage \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QPalette \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qbitmap.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qbrush.h \
@@ -149,8 +264,11 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qfont.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qfontinfo.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qfontmetrics.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qguiapplication.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qguiapplication_platform.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qicon.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qimage.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qinputmethod.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qkeysequence.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpaintdevice.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpalette.h \
@@ -171,12 +289,14 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtransform.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qwindowdefs.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qwindowdefs_win.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QApplication \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QCheckBox \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QLabel \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QTextBrowser \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QWidget \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qabstractbutton.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qapplication.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qcheckbox.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qframe.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qlabel.h \
@@ -292,6 +412,7 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/deque.tcc \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/enable_special_members.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/erase_if.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h \
@@ -306,6 +427,7 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/invoke.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/iterator_concepts.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
@@ -340,6 +462,7 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_atomic.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_base.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/specfun.h \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/sstream.tcc \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_function.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_mutex.h \
@@ -347,6 +470,7 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_deque.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_heap.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator.h \
@@ -355,10 +479,13 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_list.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_map.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_multimap.h \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_multiset.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_numeric.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_pair.h \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_queue.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_raw_storage_iter.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_relops.h \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_set.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tempbuf.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tree.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h \
@@ -374,14 +501,18 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uses_allocator_args.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cfloat \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/climits \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cmath \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/codecvt \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/compare \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/complex \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/concepts \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstddef \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
@@ -389,6 +520,7 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/deque \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
@@ -405,12 +537,16 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iomanip \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/limits \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/locale \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/map \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/math.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/memory \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/mutex \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/numbers \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/numeric \
@@ -420,6 +556,9 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_algorithm_defs.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_memory_defs.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_numeric_defs.h \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/queue \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/set \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/sstream \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf \
@@ -457,9 +596,14 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/emmintrin.h \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/float.h \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdarg.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h \
+  D:/SoftWare_Work/Qt6/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mingw.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mingw_mac.h \
   D:/SoftWare_Work/Qt6/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mingw_off_t.h \

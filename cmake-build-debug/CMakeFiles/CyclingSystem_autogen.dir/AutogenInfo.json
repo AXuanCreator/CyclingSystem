@@ -221,6 +221,11 @@
 		"D:/SoftWare_Work/Qt6/6.2.4/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake",
 		"D:/SoftWare_Work/Qt6/6.2.4/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake",
 		"D:/SoftWare_Work/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseArguments.cmake",
+		"D:/SoftWare_Work/Opencv/opencv-build/OpenCVConfig-version.cmake",
+		"D:/SoftWare_Work/Opencv/opencv-build/OpenCVConfig.cmake",
+		"D:/SoftWare_Work/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake",
+		"D:/SoftWare_Work/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake",
+		"D:/SoftWare_Work/Opencv/opencv-build/OpenCVModules.cmake",
 		"D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/resource.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem",
@@ -232,6 +237,12 @@
 			"D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/map.h",
+			"MU",
+			"EWIEGA46WW/moc_map.cpp",
 			null
 		]
 	],
@@ -260,6 +271,24 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"D:/SoftWare_Work/Opencv/opencv-build",
+		"D:/SoftWare_Work/Opencv/sources/include",
+		"D:/SoftWare_Work/Opencv/sources/modules/core/include",
+		"D:/SoftWare_Work/Opencv/sources/modules/flann/include",
+		"D:/SoftWare_Work/Opencv/sources/modules/imgproc/include",
+		"D:/SoftWare_Work/Opencv/sources/modules/ml/include",
+		"D:/SoftWare_Work/Opencv/sources/modules/photo/include",
+		"D:/SoftWare_Work/Opencv/sources/modules/dnn/include",
+		"D:/SoftWare_Work/Opencv/sources/modules/features2d/include",
+		"D:/SoftWare_Work/Opencv/sources/modules/imgcodecs/include",
+		"D:/SoftWare_Work/Opencv/sources/modules/videoio/include",
+		"D:/SoftWare_Work/Opencv/sources/modules/calib3d/include",
+		"D:/SoftWare_Work/Opencv/sources/modules/highgui/include",
+		"D:/SoftWare_Work/Opencv/sources/modules/objdetect/include",
+		"D:/SoftWare_Work/Opencv/sources/modules/stitching/include",
+		"D:/SoftWare_Work/Opencv/sources/modules/ts/include",
+		"D:/SoftWare_Work/Opencv/sources/modules/video/include",
+		"D:/SoftWare_Work/Opencv/sources/modules/gapi/include",
 		"D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore",
 		"D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include",
 		"D:/SoftWare_Work/Qt6/6.2.4/mingw_64/mkspecs/win32-g++",
@@ -303,6 +332,11 @@
 		],
 		[
 			"D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/map.cpp",
 			"MU",
 			null
 		]

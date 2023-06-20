@@ -14,11 +14,19 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(CyclingSystem main.cpp mainwindow.cpp mainwindow.h mainwindow.ui resource.qrc)
+# 设置OpenCV的安装路径
+set(OpenCV_DIR "D:/SoftWare_Work/Opencv/opencv-build")
+# 查找并加载OpenCV
+find_package(OpenCV 4.7.0 REQUIRED)
+# 添加头文件路径
+include_directories(${OpenCV_INCLUDE_DIRS})
+
+add_executable(CyclingSystem main.cpp mainwindow.cpp mainwindow.h mainwindow.ui resource.qrc map.cpp map.h)
 target_link_libraries(CyclingSystem
         Qt::Core
         Qt::Gui
         Qt::Widgets
+        ${OpenCV_LIBS} #opencv
         )
 
 if (WIN32 AND NOT DEFINED CMAKE_TOOLCHAIN_FILE)

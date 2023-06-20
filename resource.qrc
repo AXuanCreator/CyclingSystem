@@ -1,5 +1,10 @@
 <RCC>
   <qresource prefix="img">
+    <file>image/testB.png</file>
+    <file>image/otestD.png</file>
+    <file>image/testD.png</file>
+    <file>image/test.png</file>
+    <file>image/routemap.png</file>
     <file>image/bad.png</file>
     <file>image/end.png</file>
     <file>image/damuzhi.png</file>

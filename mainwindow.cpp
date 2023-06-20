@@ -10,7 +10,7 @@
 
 MainWindow::MainWindow(QWidget* parent)
 	:
-	QWidget(parent), ui(new Ui::MainWindow)
+	QWidget(parent), ui(new Ui::MainWindow),map(new Map)
 {
 	ui->setupUi(this);
 
@@ -18,6 +18,7 @@ MainWindow::MainWindow(QWidget* parent)
 	ui->labelE->hide();
 	bikeStatus(0); // 隐藏状态信息
 
+	map->mapInit();
 	cbInit();
 	bikeInit();
 	comboInit();
@@ -189,7 +190,6 @@ void MainWindow::showAllStationConnect(bool checked)
 		reCharge(2);
 		return;
 	}
-
 
 	// 隐藏之前的ui
 	ui->labelS->hide();
