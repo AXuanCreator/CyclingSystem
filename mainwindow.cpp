@@ -14,12 +14,10 @@ MainWindow::MainWindow(QWidget* parent)
 {
 	ui->setupUi(this);
 
-
 	//ui->labelMap->hide();
 	ui->labelS->hide();
 	ui->labelE->hide();
 	bikeStatus(0); // 隐藏状态信息
-
 
 	// 初始化
 	map->mapInit();
@@ -30,12 +28,7 @@ MainWindow::MainWindow(QWidget* parent)
 	cbInit();
 	bikeInit();
 	comboInit();
-
-	QGraphicsPixmapItem* pixmapItem = new QGraphicsPixmapItem(QPixmap(QString::fromUtf8(":/img/image/map.png")));
-	QGraphicsScene scene;
-	scene.addItem(pixmapItem);
-	ui->gvMap->setScene(&scene);
-	ui->gvMap->show();
+	gvMapInit();
 
 	//连接区域
 
@@ -77,6 +70,42 @@ MainWindow::~MainWindow()
 	for (auto& vec : cbArr)
 		delete vec;
 }
+
+/*
+ * 函数名 : gvMapInit
+ * In : void
+ * Out : void
+ * 作用 : 地图缩放设置
+ */
+void MainWindow::gvMapInit()
+{
+	QGraphicsScene* scene = new QGraphicsScene(this);
+	QPixmap pixmap(":/img/image/map.png");
+
+	QLabel* label = new QLabel;
+	label->setFixedSize(pixmap.height(), pixmap.width());
+	label->setPixmap(pixmap);
+	label->setScaledContents(true);  // 图片随label缩放
+
+	scene->addWidget(label);    // 将 QLabel 添加到 QGraphicsScene 中
+
+	ui->gvMap->setScene(scene);    // 设置 QGraphicsView 显示的场景
+
+	ui->gvMap->setInteractive(true);                  // 允许交互
+	ui->gvMap->setDragMode(QGraphicsView::ScrollHandDrag);         // 允许拖拽
+
+	// 缩放平滑处理
+	ui->gvMap->setRenderHint(QPainter::Antialiasing);
+	ui->gvMap->setRenderHint(QPainter::SmoothPixmapTransform);
+
+	// 隐藏滚动条
+	ui->gvMap->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+	ui->gvMap->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+
+	// 安装事件过滤器，用于鼠标滚轮缩放
+	ui->gvMap->installEventFilter(this);
+}
+
 
 /*
  * 函数名 : mapPointInit
@@ -428,7 +457,10 @@ void MainWindow::bikeChecked(int index, bool checked)
 }
 
 /*
- *
+ * 函数名 : bikeStatus
+ * In : mode[模式选择]
+ * Out : void
+ * 作用 : 根据模式代码控制STATUS状态栏信息
  */
 void MainWindow::bikeStatus(int mode)
 {
@@ -474,7 +506,11 @@ void MainWindow::bikeStatus(int mode)
 }
 
 /*
- *
+ * 【重要函数】
+ * 函数名 : routePaint
+ * In : void
+ * Out : void
+ * 作用 : 路线绘制
  */
 void MainWindow::routePaint()
 {
@@ -569,28 +605,10 @@ void MainWindow::routePaint()
 			for (int i = 0; i > pTarget.y(); --i)
 				mapPointDraw(TempX--, TempY);
 
-
 	startY += pStart.x();
 	startX += pStart.y();
 	targetY += pTarget.x();
 	targetX += pTarget.y();
-
-
-
-	/*
-	//TODO : [优化]这里这么判断暴力了点
-	while (map->mapArr[startY][startX] == 0)
-	{
-		++startY;
-		mapPointDraw(startX, startY);
-	}
-
-	while (map->mapArr[targetY][targetX] == 0)
-	{
-		++targetX;
-		mapPointDraw(targetX, targetY);
-	}
-	*/
 
 	QVector<Node*> nodes = map->aStar(startY, startX, targetY, targetX);       // 在map.h中获取最短路径坐标点
 
@@ -601,7 +619,10 @@ void MainWindow::routePaint()
 }
 
 /*
- *
+ * 函数名 : pointGet
+ * In : void
+ * Out : Point4[涵盖四个坐标的结构体]
+ * 作用 : 返回两个label的坐标
  */
 Point4 MainWindow::pointGet()
 {
@@ -620,7 +641,10 @@ Point4 MainWindow::pointGet()
 }
 
 /*
- *
+ * 函数名 : mapPointDraw
+ * In : {x,y} [坐标信息]
+ * Out : void
+ * 作用 : 根据坐标在labelMap绘制地图
  */
 void MainWindow::mapPointDraw(int x, int y)
 {
@@ -632,7 +656,10 @@ void MainWindow::mapPointDraw(int x, int y)
 }
 
 /*
- *
+ * 函数名 : checkedPoint
+ * In : int [行、列、行变化量、列变化量]
+ * Out : QPoint [{行变化量，列变化量}]
+ * 作用 : 返回{row,col}里最近道路的距离
  */
 QPoint MainWindow::checkPoint(int row, int col, int m, int n)
 {
@@ -646,9 +673,62 @@ QPoint MainWindow::checkPoint(int row, int col, int m, int n)
 		m == 0 ? n > 0 ? ++n : --n : m > 0 ? ++m : --m;
 	}
 
-
 	return { m, n };
 }
+
+/*
+ * 【按键跟踪系统】
+ * 函数名 : eventFilter
+ * In : QObject QEvent
+ * Out : void
+ * 作用 : 控制滑轮与缩放
+ */
+bool MainWindow::eventFilter(QObject* obj, QEvent* event)
+{
+
+	if (obj == ui->gvMap->viewport() && event->type() == QEvent::Wheel)
+	{
+		// 阻止滚轮事件传播到地图的上下移动
+		return true;
+	}
+	// 检查事件类型是否为滚轮事件
+	if (event->type() == QEvent::Wheel)
+	{
+		// 将事件转换为滚轮事件
+		QWheelEvent* wheelEvent = static_cast<QWheelEvent*>(event);
+
+		// 获取滚轮的滚动方向
+		int delta = wheelEvent->angleDelta().y();
+
+		// 根据滚动方向进行缩放
+		double scaleFactor = 1.15;  // 缩放因子
+
+		if (delta > 0)
+		{
+			// 向上滚动，放大图片
+			ui->gvMap->scale(scaleFactor, scaleFactor);
+		}
+		else
+		{
+			// 向下滚动，缩小图片
+			ui->gvMap->scale(1.0 / scaleFactor, 1.0 / scaleFactor);
+		}
+
+		// 返回 true 表示已处理该事件
+		return true;
+	}
+
+	return QObject::eventFilter(obj, event);
+}
+
+
+/*
+ * 【按键跟踪系统】
+ * 函数名 : wheelEvent
+ * In : QWheelEvent
+ * Out : void
+ * 作用 : 鼠标滚轮跟踪
+ */
 
 
 

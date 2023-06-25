@@ -59,6 +59,7 @@ public:
     QLabel *labelBikeStartGood;
     QLabel *labelBikeEndGood;
     QGraphicsView *gvMap;
+    QLabel *labelScale;
 
     void setupUi(QWidget *MainWindow)
     {
@@ -334,9 +335,14 @@ public:
         gvMap = new QGraphicsView(MainWindow);
         gvMap->setObjectName(QString::fromUtf8("gvMap"));
         gvMap->setGeometry(QRect(830, 390, 181, 241));
+        gvMap->setFrameShadow(QFrame::Sunken);
         QBrush brush2(QColor(0, 0, 0, 255));
-        brush2.setStyle(Qt::Dense1Pattern);
+        brush2.setStyle(Qt::NoBrush);
         gvMap->setForegroundBrush(brush2);
+        labelScale = new QLabel(MainWindow);
+        labelScale->setObjectName(QString::fromUtf8("labelScale"));
+        labelScale->setGeometry(QRect(850, 350, 161, 41));
+        labelScale->setFont(font1);
 
         retranslateUi(MainWindow);
 
@@ -362,6 +368,7 @@ public:
         labelBikeEndBad->setText(QString());
         labelBikeStartGood->setText(QString());
         labelBikeEndGood->setText(QString());
+        labelScale->setText(QCoreApplication::translate("MainWindow", "\345\234\260\345\233\276\347\274\251\346\224\276\346\230\276\347\244\272(CTRL)", nullptr));
     } // retranslateUi
 
 };

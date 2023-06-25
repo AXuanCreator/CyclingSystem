@@ -106,9 +106,15 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug/Cycli
   D:/SoftWare_Work/Opencv/sources/modules/videoio/include/opencv2/videoio.hpp \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QDebug \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QDir \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QEvent \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QFile \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QIODevice \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QList \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QObject \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QQueue \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QRect \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QSize \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QSizeF \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QString \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QTextStream \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QThread \
@@ -175,6 +181,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug/Cycli
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qobjectdefs_impl.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qpair.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qpoint.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qpointer.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qprocessordetection.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qqueue.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qrect.h \
@@ -211,10 +218,14 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug/Cycli
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QImage \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QPainter \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QPalette \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QTransform \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QWheelEvent \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qbitmap.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qbrush.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qcolor.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qcursor.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qevent.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qeventpoint.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qfont.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qfontinfo.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qfontmetrics.h \
@@ -222,6 +233,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug/Cycli
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qguiapplication_platform.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qicon.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qimage.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qinputdevice.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qinputmethod.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qkeysequence.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpaintdevice.h \
@@ -232,10 +244,12 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug/Cycli
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpicture.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpixelformat.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpixmap.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpointingdevice.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpolygon.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qregion.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qrgb.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qrgba64.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qscreen.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtextcursor.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtextdocument.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtextformat.h \
@@ -243,11 +257,14 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug/Cycli
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtgui-config.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtguiglobal.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qtransform.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qvector2d.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qvectornd.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qwindowdefs.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QApplication \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QCheckBox \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QGraphicsView \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QLabel \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QTextBrowser \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QWidget \
@@ -257,7 +274,10 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug/Cycli
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qcheckbox.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qframe.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qgraphicsitem.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qgraphicsscene.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qgraphicsview.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qlabel.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qscrollarea.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qsizepolicy.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qtextbrowser.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qtextedit.h \
