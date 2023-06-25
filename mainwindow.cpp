@@ -10,18 +10,32 @@
 
 MainWindow::MainWindow(QWidget* parent)
 	:
-	QWidget(parent), ui(new Ui::MainWindow),map(new Map)
+	QWidget(parent), ui(new Ui::MainWindow), map(new Map)
 {
 	ui->setupUi(this);
 
+
+	//ui->labelMap->hide();
 	ui->labelS->hide();
 	ui->labelE->hide();
 	bikeStatus(0); // 隐藏状态信息
 
+
+	// 初始化
 	map->mapInit();
+	imgRow = map->mapArr.size();
+	imgCol = map->mapArr[0].size();
+
+	mapPointInit();
 	cbInit();
 	bikeInit();
 	comboInit();
+
+	QGraphicsPixmapItem* pixmapItem = new QGraphicsPixmapItem(QPixmap(QString::fromUtf8(":/img/image/map.png")));
+	QGraphicsScene scene;
+	scene.addItem(pixmapItem);
+	ui->gvMap->setScene(&scene);
+	ui->gvMap->show();
 
 	//连接区域
 
@@ -40,9 +54,12 @@ MainWindow::MainWindow(QWidget* parent)
 	// [连接radioButton和地图所有label显示]
 	connect(ui->rbShowStation, &QPushButton::toggled, this, &MainWindow::showAllStationConnect);
 
-	// [连接radioButton和重置]
+	// [连接pushButton和重置]
 	connect(ui->pbRecharge, &QPushButton::clicked, this, [this]()
 	{ reCharge(-1); });
+
+	// [连接pushButton和最短路径显示]
+	connect(ui->pbRoute, &QPushButton::clicked, this, &MainWindow::routePaint);
 
 	// [连接地图某个checkBox和comboBox显示]
 	for (auto& cb : cbArr)
@@ -59,6 +76,20 @@ MainWindow::~MainWindow()
 	delete ui;
 	for (auto& vec : cbArr)
 		delete vec;
+}
+
+/*
+ * 函数名 : mapPointInit
+ * In : void
+ * Out : void
+ * 作用 : 获取labelMap相对于主窗口的坐标
+ */
+void MainWindow::mapPointInit()
+{
+	// 获取地图对于主窗口的坐标
+	QPoint mapP = ui->labelMap->mapToGlobal(QPoint(0, 0));
+	mapX = mapP.x();
+	mapY = mapP.y();
 }
 
 /*
@@ -210,6 +241,9 @@ void MainWindow::showAllStationConnect(bool checked)
  */
 QPair<int, int> MainWindow::mapPointGet(int index)
 {
+
+
+	// csv中坐标的x，y最小值
 	double min_x = 87.586924;
 	double min_y = 41.80091;
 
@@ -218,8 +252,8 @@ QPair<int, int> MainWindow::mapPointGet(int index)
 	double cur_y = abs(fileInfoGet(index, 7).toDouble());
 
 	// 获取换算坐标（这里使用了比例因子计算，公式为(original - min) * scale，(20,110)是地图的左上角坐标
-	int x = round((cur_x - min_x) * x_scale) + 20; // 四舍五入
-	int y = round((cur_y - min_y) * y_scale) + 110;
+	int x = round((cur_x - min_x) * x_scale) + mapX; // 四舍五入
+	int y = round((cur_y - min_y) * y_scale) + mapY;
 
 	return QPair<int, int>(x, y);
 }
@@ -304,10 +338,16 @@ void MainWindow::reCharge(int mode)
 		for (auto& cb : cbArr)
 			cb->setChecked(false);
 	}
+	else if (mode == 3)
+	{
+		for (auto& lb : labelArr)
+			lb->setHidden(true);
+	}
 	else if (mode == -1)    // 全部重置
 	{
 		reCharge(1);
 		reCharge(2);
+		reCharge(3);
 		bikeStatus(0);
 	}
 }
@@ -356,7 +396,7 @@ void MainWindow::bikeChecked(int index, bool checked)
 	{
 		ui->lcdStartTotal->display(totalInt);
 		ui->lcdStartService->display(serviceInt);
-		if(serviceInt>0)
+		if (serviceInt > 0)
 		{
 			bikeStatus(-2); // 更改状态
 			bikeStatus(1);
@@ -372,7 +412,7 @@ void MainWindow::bikeChecked(int index, bool checked)
 	{
 		ui->lcdEndTotal->display(totalInt);
 		ui->lcdEndService->display(serviceInt);
-		if(totalInt>serviceInt)
+		if (totalInt > serviceInt)
 		{
 			bikeStatus(-4); // 更改状态
 			bikeStatus(3);
@@ -386,7 +426,6 @@ void MainWindow::bikeChecked(int index, bool checked)
 	}
 
 }
-
 
 /*
  *
@@ -402,20 +441,215 @@ void MainWindow::bikeStatus(int mode)
 		bikeStatus(-4);
 		break;
 
-	case 1:ui->labelBikeStartGood->show();break;
-	case -1:ui->labelBikeStartGood->hide();break;
+	case 1:
+		ui->labelBikeStartGood->show();
+		break;
+	case -1:
+		ui->labelBikeStartGood->hide();
+		break;
 
-	case 2:ui->labelBikeStartBad->show();break;
-	case -2:ui->labelBikeStartBad->hide();break;
+	case 2:
+		ui->labelBikeStartBad->show();
+		break;
+	case -2:
+		ui->labelBikeStartBad->hide();
+		break;
 
-	case 3:ui->labelBikeEndGood->show();break;
-	case -3:ui->labelBikeEndGood->hide(); break;
+	case 3:
+		ui->labelBikeEndGood->show();
+		break;
+	case -3:
+		ui->labelBikeEndGood->hide();
+		break;
 
-	case 4:ui->labelBikeEndBad->show();break;
-	case -4:ui->labelBikeEndBad->hide();break;
-	default:return;
+	case 4:
+		ui->labelBikeEndBad->show();
+		break;
+	case -4:
+		ui->labelBikeEndBad->hide();
+		break;
+	default:
+		return;
 	}
 }
+
+/*
+ *
+ */
+void MainWindow::routePaint()
+{
+	Point4 p4 = pointGet();
+
+	bool checkedStart = false;
+	bool checkedTarget = false;
+
+	// 移动p4的点,使其均位于map的1处,[20,120]是地图右上角的坐标
+	int startX = p4.x1 - mapX;
+	int startY = p4.y1 - mapY;
+	int targetX = p4.x2 - mapX;
+	int targetY = p4.y2 - mapY;
+
+	if (startX < 0 || startX > imgCol || targetX < 0 || targetX > imgCol || startY < 0 || startY > imgRow || targetY < 0
+		|| targetY > imgRow)
+		return;
+
+	// 求出距离马路的最短路径
+	QPoint pStart;
+	QPoint pTarget;
+	pStart = { 10000, 10000 };
+	pTarget = { 10000, 10000 };
+	for (int i = 0; i < 4; ++i)
+	{
+		if (map->mapArr[startY][startX])
+		{
+			checkedStart = true;
+			pStart = { 0, 0 };
+		}
+
+		if (map->mapArr[targetY][targetX])
+		{
+			pTarget = { 0, 0 };
+			checkedTarget = true;
+		}
+		if (checkedStart && checkedTarget) // 起点和目标点均位于路上，跳出循环
+			break;
+
+		if (!checkedStart)
+		{
+			QPoint pStartTemp = checkPoint(startY, startX, dx[i], dy[i]);
+			if (abs(pStartTemp.x() + pStartTemp.y()) < abs(pStart.x() + pStart.y()))
+				pStart = pStartTemp;
+		}
+		if (!checkedTarget)
+		{
+			// {0,1}向下 {1,0}向右 {0,-1}向上 {-1,0}向左
+			QPoint pTargetTemp = checkPoint(targetY, targetX, dx[i], dy[i]);
+			if (abs(pTargetTemp.x() + pTargetTemp.y()) < abs(pTarget.x() + pTarget.y()))
+				pTarget = pTargetTemp;
+		}
+
+	}
+	// TODO:画出轨迹
+	int TempX;
+	int TempY;
+
+	// 起点
+	TempX = startX;
+	TempY = startY;
+	if (pStart.x() != 0)
+		if (pStart.x() > 0)
+			for (int i = 0; i < pStart.x(); ++i)
+				mapPointDraw(TempX, TempY++);
+		else
+			for (int i = 0; i > pStart.x(); --i)
+				mapPointDraw(TempX, TempY--);
+	else if (pStart.y() != 0)
+		if (pStart.y() > 0)
+			for (int i = 0; i < pStart.y(); ++i)
+				mapPointDraw(TempX++, TempY);
+		else
+			for (int i = 0; i > pStart.y(); --i)
+				mapPointDraw(TempX--, TempY);
+
+	// 目标点
+	TempX = targetX;
+	TempY = targetY;
+	if (pTarget.x() != 0)
+		if (pTarget.x() > 0)
+			for (int i = 0; i < pTarget.x(); ++i)
+				mapPointDraw(TempX, TempY++);
+		else
+			for (int i = 0; i > pTarget.x(); --i)
+				mapPointDraw(TempX, TempY--);
+	else if (pTarget.y() != 0)
+		if (pTarget.y() > 0)
+			for (int i = 0; i < pTarget.y(); ++i)
+				mapPointDraw(TempX++, TempY);
+		else
+			for (int i = 0; i > pTarget.y(); --i)
+				mapPointDraw(TempX--, TempY);
+
+
+	startY += pStart.x();
+	startX += pStart.y();
+	targetY += pTarget.x();
+	targetX += pTarget.y();
+
+
+
+	/*
+	//TODO : [优化]这里这么判断暴力了点
+	while (map->mapArr[startY][startX] == 0)
+	{
+		++startY;
+		mapPointDraw(startX, startY);
+	}
+
+	while (map->mapArr[targetY][targetX] == 0)
+	{
+		++targetX;
+		mapPointDraw(targetX, targetY);
+	}
+	*/
+
+	QVector<Node*> nodes = map->aStar(startY, startX, targetY, targetX);       // 在map.h中获取最短路径坐标点
+
+	for (const auto& n : nodes)
+	{
+		mapPointDraw(n->y, n->x);  // mapArr的{y,x}相当于labelMap的{x,y}
+	}
+}
+
+/*
+ *
+ */
+Point4 MainWindow::pointGet()
+{
+	//TODO:[优化]将其再化多一个函数，这个函数获取指定部件的坐标
+
+	// 获取两个地图上的Label的全局坐标
+	QPoint startPoint = ui->labelS->pos();
+	QPoint endPoint = ui->labelE->pos();
+
+	int startX = startPoint.x();
+	int startY = startPoint.y();
+	int targetX = endPoint.x();
+	int targetY = endPoint.y();
+
+	return Point4(startX, startY, targetX, targetY);
+}
+
+/*
+ *
+ */
+void MainWindow::mapPointDraw(int x, int y)
+{
+	labelArr.push_back(new QLabel(this));
+	labelArr.back()->setGeometry(QRect(x + mapX, y + mapY, 2, 2));   // 这里的{x,y}相对于坐标是反着来的
+	labelArr.back()->setPixmap(QPixmap(QString::fromUtf8(":/img/image/spot.png")));
+	labelArr.back()->setScaledContents(true);
+	labelArr.back()->show();
+}
+
+/*
+ *
+ */
+QPoint MainWindow::checkPoint(int row, int col, int m, int n)
+{
+	if (row + m < 0 || col + n < 0 || row + m >= imgRow || col + n >= imgCol)
+		return { 20000, 20000 };
+
+	while (!map->mapArr[row + m][col + n])
+	{
+		if (row + m < 0 || col + n < 0 || row + m >= imgRow || col + n >= imgCol)
+			return { 20000, 20000 };
+		m == 0 ? n > 0 ? ++n : --n : m > 0 ? ++m : --m;
+	}
+
+
+	return { m, n };
+}
+
 
 
 

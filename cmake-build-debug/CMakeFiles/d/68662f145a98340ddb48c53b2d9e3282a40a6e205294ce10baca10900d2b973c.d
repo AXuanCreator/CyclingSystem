@@ -157,6 +157,7 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QDir \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QFile \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QIODevice \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QQueue \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QString \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QTextStream \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QThread \
@@ -224,6 +225,7 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qpair.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qpoint.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qprocessordetection.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qqueue.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qrect.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qrefcount.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qscopedpointer.h \
@@ -256,6 +258,7 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qvarlengtharray.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qversiontagging.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QImage \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QPainter \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QPalette \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qbitmap.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qbrush.h \
@@ -271,6 +274,8 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qinputmethod.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qkeysequence.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpaintdevice.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpainter.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpainterpath.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpalette.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpen.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpicture.h \
@@ -291,6 +296,7 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QApplication \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QCheckBox \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QLabel \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QTextBrowser \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QWidget \
@@ -299,6 +305,7 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qapplication.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qcheckbox.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qframe.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qgraphicsitem.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qlabel.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qsizepolicy.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qtextbrowser.h \

@@ -184,7 +184,7 @@ QVector<Node*> Map::aStar(int startX, int startY, int targetX, int targetY)
 				int newCost = currNode->g + 1; // g表示走过的长度
 
 				// 当相邻节点[不在openList]或者[花费更少]时，更新节点信息
-				if (std::find(visited.begin(),visited.end(),neighborNode)==visited.end() || newCost < neighborNode->g))
+				if (std::find(visited.begin(),visited.end(),neighborNode)==visited.end() || newCost < neighborNode->g)
 				{
 					neighborNode->g = newCost;
 					neighborNode->calManhattan(targetX,targetY);

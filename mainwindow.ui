@@ -80,9 +80,9 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>110</y>
-     <width>31</width>
-     <height>31</height>
+     <y>121</y>
+     <width>16</width>
+     <height>16</height>
     </rect>
    </property>
    <property name="text">
@@ -98,10 +98,10 @@
   <widget class="QLabel" name="labelE">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>110</y>
-     <width>21</width>
-     <height>31</height>
+     <x>60</x>
+     <y>130</y>
+     <width>16</width>
+     <height>16</height>
     </rect>
    </property>
    <property name="text">
@@ -118,9 +118,9 @@
    <property name="geometry">
     <rect>
      <x>830</x>
-     <y>120</y>
+     <y>130</y>
      <width>171</width>
-     <height>101</height>
+     <height>131</height>
     </rect>
    </property>
    <property name="widgetResizable">
@@ -132,7 +132,7 @@
       <x>0</x>
       <y>0</y>
       <width>169</width>
-      <height>99</height>
+      <height>129</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -147,6 +147,13 @@
       <widget class="QPushButton" name="pbRecharge">
        <property name="text">
         <string>重置</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pbRoute">
+       <property name="text">
+        <string>获取最短路径</string>
        </property>
       </widget>
      </item>
@@ -645,16 +652,6 @@
     </item>
    </layout>
   </widget>
-  <widget class="QGraphicsView" name="graphicsView">
-   <property name="geometry">
-    <rect>
-     <x>820</x>
-     <y>390</y>
-     <width>211</width>
-     <height>241</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QGroupBox" name="gbBikeStatus">
    <property name="geometry">
     <rect>
@@ -761,6 +758,25 @@
      <bool>true</bool>
     </property>
    </widget>
+  </widget>
+  <widget class="QGraphicsView" name="gvMap">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>390</y>
+     <width>181</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="foregroundBrush">
+    <brush brushstyle="Dense1Pattern">
+     <color alpha="255">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
   </widget>
  </widget>
  <resources>

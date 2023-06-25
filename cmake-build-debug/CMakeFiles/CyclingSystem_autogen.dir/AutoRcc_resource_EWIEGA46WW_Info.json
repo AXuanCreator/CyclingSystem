@@ -7,16 +7,14 @@
 	"INCLUDE_DIR" : "D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug/CyclingSystem_autogen/include",
 	"INPUTS" : 
 	[
+		"D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/image/bad.png",
 		"D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/image/damuzhi.png",
-		"D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/image/testD.png",
 		"D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/image/start.png",
+		"D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/image/spot.png",
 		"D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/image/end.png",
 		"D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/image/map.png",
 		"D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/image/testB.png",
-		"D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/image/routemap.png",
-		"D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/image/otestD.png",
-		"D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/image/test.png",
-		"D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/image/bad.png"
+		"D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/image/routemap.png"
 	],
 	"LOCK_FILE" : "D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/cmake-build-debug/CMakeFiles/CyclingSystem_autogen.dir/AutoRcc_resource_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,

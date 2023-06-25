@@ -111,6 +111,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QDir
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QFile
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QIODevice
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QQueue
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QString
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QTextStream
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/QThread
@@ -178,6 +179,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qpair.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qpoint.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qprocessordetection.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qqueue.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qrect.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qrefcount.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qscopedpointer.h
@@ -210,6 +212,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qvarlengtharray.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qversiontagging.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QImage
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QPainter
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QPalette
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qbitmap.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qbrush.h
@@ -225,6 +228,8 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qinputmethod.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qkeysequence.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpaintdevice.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpainter.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpainterpath.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpalette.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpen.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qpicture.h
@@ -245,6 +250,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/qwindowdefs_win.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QApplication
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QCheckBox
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QGraphicsPixmapItem
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QLabel
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QTextBrowser
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QWidget
@@ -253,6 +259,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qapplication.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qcheckbox.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qframe.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qgraphicsitem.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qlabel.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qsizepolicy.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qtextbrowser.h

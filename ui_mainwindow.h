@@ -44,6 +44,7 @@ public:
     QVBoxLayout *verticalLayout;
     QRadioButton *rbShowStation;
     QPushButton *pbRecharge;
+    QPushButton *pbRoute;
     QFrame *frame;
     QGridLayout *gridLayout;
     QLabel *labelBikeStart;
@@ -52,12 +53,12 @@ public:
     QLabel *labelBikeEnd;
     QLCDNumber *lcdEndTotal;
     QLCDNumber *lcdEndService;
-    QGraphicsView *graphicsView;
     QGroupBox *gbBikeStatus;
     QLabel *labelBikeStartBad;
     QLabel *labelBikeEndBad;
     QLabel *labelBikeStartGood;
     QLabel *labelBikeEndGood;
+    QGraphicsView *gvMap;
 
     void setupUi(QWidget *MainWindow)
     {
@@ -101,21 +102,21 @@ public:
 
         labelS = new QLabel(MainWindow);
         labelS->setObjectName(QString::fromUtf8("labelS"));
-        labelS->setGeometry(QRect(20, 110, 31, 31));
+        labelS->setGeometry(QRect(20, 121, 16, 16));
         labelS->setPixmap(QPixmap(QString::fromUtf8(":/img/image/start.png")));
         labelS->setScaledContents(true);
         labelE = new QLabel(MainWindow);
         labelE->setObjectName(QString::fromUtf8("labelE"));
-        labelE->setGeometry(QRect(50, 110, 21, 31));
+        labelE->setGeometry(QRect(60, 130, 16, 16));
         labelE->setPixmap(QPixmap(QString::fromUtf8(":/img/image/end.png")));
         labelE->setScaledContents(true);
         scrollArea = new QScrollArea(MainWindow);
         scrollArea->setObjectName(QString::fromUtf8("scrollArea"));
-        scrollArea->setGeometry(QRect(830, 120, 171, 101));
+        scrollArea->setGeometry(QRect(830, 130, 171, 131));
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName(QString::fromUtf8("scrollAreaWidgetContents"));
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 169, 99));
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 169, 129));
         verticalLayout = new QVBoxLayout(scrollAreaWidgetContents);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         rbShowStation = new QRadioButton(scrollAreaWidgetContents);
@@ -127,6 +128,11 @@ public:
         pbRecharge->setObjectName(QString::fromUtf8("pbRecharge"));
 
         verticalLayout->addWidget(pbRecharge);
+
+        pbRoute = new QPushButton(scrollAreaWidgetContents);
+        pbRoute->setObjectName(QString::fromUtf8("pbRoute"));
+
+        verticalLayout->addWidget(pbRoute);
 
         scrollArea->setWidget(scrollAreaWidgetContents);
         frame = new QFrame(MainWindow);
@@ -297,9 +303,6 @@ public:
 
         gridLayout->addWidget(lcdEndService, 3, 3, 1, 1);
 
-        graphicsView = new QGraphicsView(MainWindow);
-        graphicsView->setObjectName(QString::fromUtf8("graphicsView"));
-        graphicsView->setGeometry(QRect(820, 390, 211, 241));
         gbBikeStatus = new QGroupBox(MainWindow);
         gbBikeStatus->setObjectName(QString::fromUtf8("gbBikeStatus"));
         gbBikeStatus->setGeometry(QRect(420, 10, 81, 101));
@@ -328,6 +331,12 @@ public:
         labelBikeEndGood->setGeometry(QRect(10, 70, 21, 21));
         labelBikeEndGood->setPixmap(QPixmap(QString::fromUtf8(":/img/image/damuzhi.png")));
         labelBikeEndGood->setScaledContents(true);
+        gvMap = new QGraphicsView(MainWindow);
+        gvMap->setObjectName(QString::fromUtf8("gvMap"));
+        gvMap->setGeometry(QRect(830, 390, 181, 241));
+        QBrush brush2(QColor(0, 0, 0, 255));
+        brush2.setStyle(Qt::Dense1Pattern);
+        gvMap->setForegroundBrush(brush2);
 
         retranslateUi(MainWindow);
 
@@ -345,6 +354,7 @@ public:
         labelE->setText(QString());
         rbShowStation->setText(QCoreApplication::translate("MainWindow", "\346\230\276\347\244\272\346\211\200\346\234\211\347\253\231\347\202\271", nullptr));
         pbRecharge->setText(QCoreApplication::translate("MainWindow", "\351\207\215\347\275\256", nullptr));
+        pbRoute->setText(QCoreApplication::translate("MainWindow", "\350\216\267\345\217\226\346\234\200\347\237\255\350\267\257\345\276\204", nullptr));
         labelBikeStart->setText(QCoreApplication::translate("MainWindow", "START", nullptr));
         labelBikeEnd->setText(QCoreApplication::translate("MainWindow", "END", nullptr));
         gbBikeStatus->setTitle(QCoreApplication::translate("MainWindow", "STATUS", nullptr));
