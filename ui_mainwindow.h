@@ -47,11 +47,11 @@ public:
     QPushButton *pbRoute;
     QFrame *frame;
     QGridLayout *gridLayout;
-    QLabel *labelBikeStart;
     QLCDNumber *lcdStartTotal;
+    QLabel *labelBikeStart;
     QLCDNumber *lcdStartService;
-    QLabel *labelBikeEnd;
     QLCDNumber *lcdEndTotal;
+    QLabel *labelBikeEnd;
     QLCDNumber *lcdEndService;
     QGroupBox *gbBikeStatus;
     QLabel *labelBikeStartBad;
@@ -60,6 +60,8 @@ public:
     QLabel *labelBikeEndGood;
     QGraphicsView *gvMap;
     QLabel *labelScale;
+    QLabel *labelBikeTotal;
+    QLabel *label;
 
     void setupUi(QWidget *MainWindow)
     {
@@ -144,16 +146,6 @@ public:
         frame->setFrameShadow(QFrame::Raised);
         gridLayout = new QGridLayout(frame);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
-        labelBikeStart = new QLabel(frame);
-        labelBikeStart->setObjectName(QString::fromUtf8("labelBikeStart"));
-        QFont font1;
-        font1.setPointSize(12);
-        font1.setBold(true);
-        labelBikeStart->setFont(font1);
-        labelBikeStart->setCursor(QCursor(Qt::ArrowCursor));
-
-        gridLayout->addWidget(labelBikeStart, 0, 0, 1, 1);
-
         lcdStartTotal = new QLCDNumber(frame);
         lcdStartTotal->setObjectName(QString::fromUtf8("lcdStartTotal"));
         QPalette palette;
@@ -174,9 +166,9 @@ public:
         palette.setBrush(QPalette::Disabled, QPalette::PlaceholderText, brush);
 #endif
         lcdStartTotal->setPalette(palette);
-        QFont font2;
-        font2.setBold(true);
-        lcdStartTotal->setFont(font2);
+        QFont font1;
+        font1.setBold(true);
+        lcdStartTotal->setFont(font1);
         lcdStartTotal->setCursor(QCursor(Qt::ArrowCursor));
         lcdStartTotal->setMouseTracking(false);
         lcdStartTotal->setTabletTracking(false);
@@ -198,6 +190,16 @@ public:
 
         gridLayout->addWidget(lcdStartTotal, 0, 2, 1, 1);
 
+        labelBikeStart = new QLabel(frame);
+        labelBikeStart->setObjectName(QString::fromUtf8("labelBikeStart"));
+        QFont font2;
+        font2.setPointSize(12);
+        font2.setBold(true);
+        labelBikeStart->setFont(font2);
+        labelBikeStart->setCursor(QCursor(Qt::ArrowCursor));
+
+        gridLayout->addWidget(labelBikeStart, 0, 0, 1, 1);
+
         lcdStartService = new QLCDNumber(frame);
         lcdStartService->setObjectName(QString::fromUtf8("lcdStartService"));
         QPalette palette1;
@@ -214,7 +216,7 @@ public:
         palette1.setBrush(QPalette::Disabled, QPalette::PlaceholderText, brush);
 #endif
         lcdStartService->setPalette(palette1);
-        lcdStartService->setFont(font2);
+        lcdStartService->setFont(font1);
         lcdStartService->setCursor(QCursor(Qt::ArrowCursor));
         lcdStartService->setStyleSheet(QString::fromUtf8("QLCDNumber {\n"
 "    color: black;\n"
@@ -230,13 +232,6 @@ public:
         lcdStartService->setSegmentStyle(QLCDNumber::Flat);
 
         gridLayout->addWidget(lcdStartService, 0, 3, 1, 1);
-
-        labelBikeEnd = new QLabel(frame);
-        labelBikeEnd->setObjectName(QString::fromUtf8("labelBikeEnd"));
-        labelBikeEnd->setFont(font1);
-        labelBikeEnd->setCursor(QCursor(Qt::ArrowCursor));
-
-        gridLayout->addWidget(labelBikeEnd, 3, 0, 1, 1);
 
         lcdEndTotal = new QLCDNumber(frame);
         lcdEndTotal->setObjectName(QString::fromUtf8("lcdEndTotal"));
@@ -254,7 +249,7 @@ public:
         palette2.setBrush(QPalette::Disabled, QPalette::PlaceholderText, brush);
 #endif
         lcdEndTotal->setPalette(palette2);
-        lcdEndTotal->setFont(font2);
+        lcdEndTotal->setFont(font1);
         lcdEndTotal->setCursor(QCursor(Qt::ArrowCursor));
         lcdEndTotal->setStyleSheet(QString::fromUtf8("QLCDNumber {\n"
 "    color: black;\n"
@@ -270,6 +265,13 @@ public:
         lcdEndTotal->setSegmentStyle(QLCDNumber::Flat);
 
         gridLayout->addWidget(lcdEndTotal, 3, 2, 1, 1);
+
+        labelBikeEnd = new QLabel(frame);
+        labelBikeEnd->setObjectName(QString::fromUtf8("labelBikeEnd"));
+        labelBikeEnd->setFont(font2);
+        labelBikeEnd->setCursor(QCursor(Qt::ArrowCursor));
+
+        gridLayout->addWidget(labelBikeEnd, 3, 0, 1, 1);
 
         lcdEndService = new QLCDNumber(frame);
         lcdEndService->setObjectName(QString::fromUtf8("lcdEndService"));
@@ -287,7 +289,7 @@ public:
         palette3.setBrush(QPalette::Disabled, QPalette::PlaceholderText, brush);
 #endif
         lcdEndService->setPalette(palette3);
-        lcdEndService->setFont(font2);
+        lcdEndService->setFont(font1);
         lcdEndService->setCursor(QCursor(Qt::ArrowCursor));
         lcdEndService->setStyleSheet(QString::fromUtf8("QLCDNumber {\n"
 "    color: black;\n"
@@ -307,7 +309,7 @@ public:
         gbBikeStatus = new QGroupBox(MainWindow);
         gbBikeStatus->setObjectName(QString::fromUtf8("gbBikeStatus"));
         gbBikeStatus->setGeometry(QRect(420, 10, 81, 101));
-        gbBikeStatus->setFont(font1);
+        gbBikeStatus->setFont(font2);
         labelBikeStartBad = new QLabel(gbBikeStatus);
         labelBikeStartBad->setObjectName(QString::fromUtf8("labelBikeStartBad"));
         labelBikeStartBad->setEnabled(true);
@@ -341,8 +343,19 @@ public:
         gvMap->setForegroundBrush(brush2);
         labelScale = new QLabel(MainWindow);
         labelScale->setObjectName(QString::fromUtf8("labelScale"));
-        labelScale->setGeometry(QRect(850, 350, 161, 41));
-        labelScale->setFont(font1);
+        labelScale->setGeometry(QRect(850, 350, 171, 41));
+        labelScale->setFont(font2);
+        labelBikeTotal = new QLabel(MainWindow);
+        labelBikeTotal->setObjectName(QString::fromUtf8("labelBikeTotal"));
+        labelBikeTotal->setGeometry(QRect(200, 10, 119, 16));
+        QFont font3;
+        font3.setPointSize(10);
+        font3.setBold(true);
+        labelBikeTotal->setFont(font3);
+        label = new QLabel(MainWindow);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(310, 10, 91, 16));
+        label->setFont(font3);
 
         retranslateUi(MainWindow);
 
@@ -368,7 +381,9 @@ public:
         labelBikeEndBad->setText(QString());
         labelBikeStartGood->setText(QString());
         labelBikeEndGood->setText(QString());
-        labelScale->setText(QCoreApplication::translate("MainWindow", "\345\234\260\345\233\276\347\274\251\346\224\276\346\230\276\347\244\272(CTRL)", nullptr));
+        labelScale->setText(QCoreApplication::translate("MainWindow", "\345\234\260\345\233\276\347\274\251\346\224\276\346\230\276\347\244\272(+ or -)", nullptr));
+        labelBikeTotal->setText(QCoreApplication::translate("MainWindow", "\350\275\246\344\275\215\346\225\260\351\207\217", nullptr));
+        label->setText(QCoreApplication::translate("MainWindow", "\350\275\246\344\275\215\345\267\262\350\242\253\344\275\277\347\224\250", nullptr));
     } // retranslateUi
 
 };

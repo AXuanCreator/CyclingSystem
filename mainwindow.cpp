@@ -30,6 +30,9 @@ MainWindow::MainWindow(QWidget* parent)
 	comboInit();
 	gvMapInit();
 
+	this->setWindowFlags(Qt::WindowCloseButtonHint); // 取消最大最小化
+	this->setFixedSize(this->width(), this->height()); // 禁止调节大小
+
 	//连接区域
 
 	// [连接comboBox和地图的label显示]使用了Lambda表达式，使之可以传递两个参数给同一个槽函数，以此控制谁进行移动
@@ -61,7 +64,6 @@ MainWindow::MainWindow(QWidget* parent)
 		connect(cb, &QCheckBox::stateChanged, this, [this, name](int state)
 		{ chooseStation(state, name); });
 	}
-
 }
 
 MainWindow::~MainWindow()
@@ -85,12 +87,11 @@ void MainWindow::gvMapInit()
 	QLabel* label = new QLabel;
 	label->setFixedSize(pixmap.height(), pixmap.width());
 	label->setPixmap(pixmap);
-	label->setScaledContents(true);  // 图片随label缩放
+	//label->setScaledContents(true);  // 图片随label缩放
 
 	scene->addWidget(label);    // 将 QLabel 添加到 QGraphicsScene 中
 
 	ui->gvMap->setScene(scene);    // 设置 QGraphicsView 显示的场景
-
 	ui->gvMap->setInteractive(true);                  // 允许交互
 	ui->gvMap->setDragMode(QGraphicsView::ScrollHandDrag);         // 允许拖拽
 
@@ -104,8 +105,10 @@ void MainWindow::gvMapInit()
 
 	// 安装事件过滤器，用于鼠标滚轮缩放
 	ui->gvMap->installEventFilter(this);
-}
 
+	// 鼠标跟踪
+	ui->gvMap->setMouseTracking(true);
+}
 
 /*
  * 函数名 : mapPointInit
@@ -248,6 +251,7 @@ void MainWindow::showAllStationConnect(bool checked)
 		for (auto& vec : cbArr)
 			vec->hide();
 		reCharge(2);
+		reCharge(3);
 		return;
 	}
 
@@ -270,8 +274,6 @@ void MainWindow::showAllStationConnect(bool checked)
  */
 QPair<int, int> MainWindow::mapPointGet(int index)
 {
-
-
 	// csv中坐标的x，y最小值
 	double min_x = 87.586924;
 	double min_y = 41.80091;
@@ -519,7 +521,7 @@ void MainWindow::routePaint()
 	bool checkedStart = false;
 	bool checkedTarget = false;
 
-	// 移动p4的点,使其均位于map的1处,[20,120]是地图右上角的坐标
+	// 移动p4的点,使其均位于map的1处
 	int startX = p4.x1 - mapX;
 	int startY = p4.y1 - mapY;
 	int targetX = p4.x2 - mapX;
@@ -565,7 +567,6 @@ void MainWindow::routePaint()
 		}
 
 	}
-	// TODO:画出轨迹
 	int TempX;
 	int TempY;
 
@@ -685,35 +686,21 @@ QPoint MainWindow::checkPoint(int row, int col, int m, int n)
  */
 bool MainWindow::eventFilter(QObject* obj, QEvent* event)
 {
-
-	if (obj == ui->gvMap->viewport() && event->type() == QEvent::Wheel)
-	{
-		// 阻止滚轮事件传播到地图的上下移动
-		return true;
-	}
-	// 检查事件类型是否为滚轮事件
-	if (event->type() == QEvent::Wheel)
+	// 事件类型 : 缩放+-
+	if (obj == ui->gvMap && event->type() == QEvent::KeyPress)
 	{
 		// 将事件转换为滚轮事件
-		QWheelEvent* wheelEvent = static_cast<QWheelEvent*>(event);
+		QKeyEvent* keyEvent = static_cast<QKeyEvent*>(event);
 
-		// 获取滚轮的滚动方向
-		int delta = wheelEvent->angleDelta().y();
-
-		// 根据滚动方向进行缩放
-		double scaleFactor = 1.15;  // 缩放因子
-
-		if (delta > 0)
+		if(keyEvent->key() == '-')
 		{
-			// 向上滚动，放大图片
-			ui->gvMap->scale(scaleFactor, scaleFactor);
-		}
-		else
-		{
-			// 向下滚动，缩小图片
-			ui->gvMap->scale(1.0 / scaleFactor, 1.0 / scaleFactor);
-		}
+			ui->gvMap->scale(0.8,0.8);
 
+		}
+		else if(keyEvent->key() == '=')
+		{
+			ui->gvMap->scale(1.2,1.2);
+		}
 		// 返回 true 表示已处理该事件
 		return true;
 	}
@@ -722,13 +709,6 @@ bool MainWindow::eventFilter(QObject* obj, QEvent* event)
 }
 
 
-/*
- * 【按键跟踪系统】
- * 函数名 : wheelEvent
- * In : QWheelEvent
- * Out : void
- * 作用 : 鼠标滚轮跟踪
- */
 
 
 

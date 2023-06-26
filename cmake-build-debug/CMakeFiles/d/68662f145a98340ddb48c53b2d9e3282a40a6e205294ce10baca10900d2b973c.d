@@ -265,6 +265,7 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qvarlengtharray.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qversiontagging.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QImage \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QKeyEvent \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QPainter \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QPalette \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QTransform \
@@ -315,10 +316,12 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QGraphicsView \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QLabel \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QScrollBar \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QTextBrowser \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QWidget \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qabstractbutton.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qabstractslider.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qapplication.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qcheckbox.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qframe.h \
@@ -327,6 +330,7 @@ CyclingSystem_autogen/timestamp: \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qgraphicsview.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qlabel.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qscrollarea.h \
+  D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qscrollbar.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qsizepolicy.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qtextbrowser.h \
   D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qtextedit.h \

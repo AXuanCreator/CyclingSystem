@@ -219,6 +219,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qvarlengtharray.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtCore/qversiontagging.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QImage
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QKeyEvent
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QPainter
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QPalette
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtGui/QTransform
@@ -269,10 +270,12 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QGraphicsPixmapItem
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QGraphicsView
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QLabel
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QScrollBar
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QTextBrowser
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/QWidget
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qabstractbutton.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qabstractscrollarea.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qabstractslider.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qapplication.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qcheckbox.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qframe.h
@@ -281,6 +284,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qgraphicsview.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qlabel.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qscrollarea.h
+ mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qscrollbar.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qsizepolicy.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qtextbrowser.h
  mdp:D:/SoftWare_Work/Qt6/6.2.4/mingw_64/include/QtWidgets/qtextedit.h
@@ -544,7 +548,7 @@ D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:D:/SoftWare_Work/Qt6/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
 D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/map.h
-D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/main.cpp
 D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/mainwindow.cpp
  uic:ui_mainwindow.h
+D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/main.cpp
 D:/Files_Work/Code/JetBrains/CLion/Project/CyclingSystem/map.cpp

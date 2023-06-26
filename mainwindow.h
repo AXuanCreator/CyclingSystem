@@ -23,8 +23,9 @@
 #include <QGraphicsPixmapItem>
 #include <QGraphicsView>
 #include <QEvent>
+#include <QKeyEvent>
 #include <QWheelEvent>
-
+#include <QScrollBar>
 #define ROW 28
 
 QT_BEGIN_NAMESPACE
@@ -85,8 +86,10 @@ private:
 	void cbInit();                                                  // 站点初始化
 	void bikeInit();                                                // 自行车数量初始化
 	void bikeStatus(int mode);                                      // 自行车状态
-	void mapPointDraw(int x, int y);
-	bool eventFilter(QObject* obj, QEvent* event);
+	void mapPointDraw(int x, int y);                                // {x,y}描点
+
+	bool eventFilter(QObject* obj, QEvent* event);                  // 所以事件跟踪
+
 
 	QPoint checkPoint(int row, int col, int m, int n);               // 检测当前点与路口的最近距离
 	Point4 pointGet();                                               // 获取label坐标
@@ -105,6 +108,5 @@ private slots:
 
 
 };
-
 
 #endif //MAINWINDOW_H

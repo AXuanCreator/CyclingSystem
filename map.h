@@ -62,7 +62,7 @@ public:
 	Map();
 	~Map();
 
-	void mapInit();         // 地图初始化 TODO:[优化]每次运行都要花费大量时间，不如将它先运行存储到文件里，然后直接在文件里读取
+	void mapInit();         // 地图初始化
 
 
 	QVector<Node*> aStar(int startX,int startY,int targetX,int targetY);    // 最短路径
